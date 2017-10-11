@@ -39,3 +39,15 @@ gulp.task('dev', ['browserSync'], function() {
   gulp.watch('css/*.css', browserSync.reload);
   gulp.watch('*.html', browserSync.reload);
 });
+
+// Inherit from nunjucks template
+gulp.task('nunjucks', function() {
+  // Gets .html and .nunjucks files in pages
+  return gulp.src('pages/**/*.+(html|nunjucks)')
+  // Renders template with nunjucks
+  .pipe(nunjucksRender({
+      path: ['templates']
+    }))
+  // output files in app folder
+  .pipe(gulp.dest(''))
+});
