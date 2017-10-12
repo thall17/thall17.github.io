@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<!-- Creating the navigation with activePage = 'home' -->
+{{nav.active('education')}}
+
+<div class="container">
+  <!-- Page Heading -->
+  <h1 class="my-4">Education
+    <small>Secondary Text</small>
+  </h1>
+
+</div>
+{% endblock %}
