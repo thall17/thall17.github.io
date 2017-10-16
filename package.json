@@ -33,6 +33,7 @@
   "devDependencies": {
     "browser-sync": "2.18.13",
     "gulp": "^3.9.1",
+    "gulp-data": "^1.2.1",
     "gulp-nunjucks-render": "^2.2.1"
   }
 }

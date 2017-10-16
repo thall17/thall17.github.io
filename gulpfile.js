@@ -2,6 +2,7 @@ var gulp = require('gulp');
 var browserSync = require('browser-sync').create();
 var pkg = require('./package.json');
 var nunjucksRender = require('gulp-nunjucks-render');
+var data = require('gulp-data');
 
 // Copy vendor files from /node_modules into /vendor
 // NOTE: requires `npm install` before running!
@@ -44,6 +45,10 @@ gulp.task('dev', ['browserSync'], function() {
 gulp.task('nunjucks', function() {
   // Gets .html and .nunjucks files in pages
   return gulp.src('pages/**/*.+(html|nunjucks)')
+  // Adding data to Nunjucks
+  .pipe(data(function() {
+    return require('./project_data.json')
+  }))
   // Renders template with nunjucks
   .pipe(nunjucksRender({
       path: ['templates']

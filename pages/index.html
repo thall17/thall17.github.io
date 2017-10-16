@@ -1,4 +1,4 @@
-{% extends "layout.nunjucks" %}
+{% extends "layout.html" %}
 {% block content %}
 
 <!-- Creating the navigation with activePage = 'home' -->
@@ -9,6 +9,13 @@
   <h1 class="my-4">Projects
     <!-- <small>Secondary Text</small> -->
   </h1>
+  <div class="row">
+    {% for image in images %}
+      <p>
+         {{image.src}} {{image.alt}}
+      </p>
+    {% endfor %}
+  </div>
 
   <!-- Project One -->
   <div class="row">

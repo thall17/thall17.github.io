@@ -23,13 +23,13 @@
   <body>
 
     <!-- Importing Nunjucks Macro -->
-    {% import 'macros/nav-macro.nunjucks' as nav %}
+    {% import 'macros/nav-macro.html' as nav %}
 
     <!-- Page Content -->
     {% block content %} {% endblock %}
 
     <!-- Footer -->
-    {% include "partials/footer.nunjucks" %}
+    {% include "partials/footer.html" %}
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
