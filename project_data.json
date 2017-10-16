@@ -4,8 +4,8 @@
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.",
     "images": {
       "preview": {
-        "src": "project_1_preview.png",
-        "alt": "project_1 picture"
+        "src": "http://placehold.it/700x300",
+        "alt": "placeholder"
       },
       "gallery_1": {
         "src": "project_1_preview.png",
@@ -20,5 +20,28 @@
         "alt": "project_1 picture"
       }
     }
-  }]
+  },
+  {
+    "name": "Project 2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.",
+    "images": {
+      "preview": {
+        "src": "http://placehold.it/700x300",
+        "alt": "placeholder"
+      },
+      "gallery_1": {
+        "src": "project_1_preview.png",
+        "alt": "project_1 picture"
+      },
+      "gallery_2": {
+        "src": "project_1_preview.png",
+        "alt": "project_1 picture"
+      },
+      "gallery_3": {
+        "src": "project_1_preview.png",
+        "alt": "project_1 picture"
+      }
+    }
+  }
+]
 }
