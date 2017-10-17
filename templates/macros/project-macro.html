@@ -1,4 +1,4 @@
-{% macro current(project) %}
+{% macro current(project, hash) %}
 <header>
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -43,8 +43,8 @@
 <!-- Page Content -->
 <section class="py-5">
   <div class="container">
-    <h1>Here are all the projects</h1>
-    <p>{{projects}}</p>
+    <h1>{{hash[project].name}}</h1>
+    <p>{{hash[project].description}}</p>
     <code>half-slider.css</code>file.</p>
   </div>
 </section>

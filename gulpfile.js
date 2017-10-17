@@ -45,14 +45,14 @@ gulp.task('dev', ['browserSync'], function() {
 gulp.task('nunjucks', function() {
   // Gets .html and .nunjucks files in pages
   return gulp.src('pages/**/*.+(html|nunjucks)')
-  // Adding data to Nunjucks
-  .pipe(data(function() {
-    return require('./project_data.json')
-  }))
-  // Renders template with nunjucks
-  .pipe(nunjucksRender({
+    // Adding data to Nunjucks
+    .pipe(data(function() {
+      return require('./project_data.json')
+    }))
+    // Renders template with nunjucks
+    .pipe(nunjucksRender({
       path: ['templates']
     }))
-  // output files in app folder
-  .pipe(gulp.dest(''))
+    // output files in app folder
+    .pipe(gulp.dest(''))
 });
