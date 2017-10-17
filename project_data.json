@@ -3,6 +3,7 @@
     "project_1": {
       "name": "Project 1",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.",
+      "github_url": "https://github.com/thall17/username-checker",
       "images": {
         "preview": {
           "src": "http://placehold.it/700x300",
@@ -25,6 +26,7 @@
     "project_2": {
       "name": "Project 2",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.",
+      "github_url": "https://github.com/thall17/username-checker",
       "images": {
         "preview": {
           "src": "http://placehold.it/700x300",
