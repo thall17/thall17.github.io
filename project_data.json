@@ -1,4 +1,11 @@
 {
+  "about": {
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.",
+    "email": "timhall3000@gmail.com",
+    "mobile": "858-472-6046",
+    "linkedin": "https://www.linkedin.com/in/thall17/",
+    "github": "https://github.com/thall17"
+  },
   "projects": {
     "makebeer": {
       "name": "makebeer.io",
