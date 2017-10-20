@@ -47,7 +47,7 @@ gulp.task('nunjucks', function() {
   return gulp.src('pages/**/*.+(html|nunjucks)')
     // Adding data to Nunjucks
     .pipe(data(function() {
-      return require('./project_data.json')
+      return require('./data.json')
     }))
     // Renders template with nunjucks
     .pipe(nunjucksRender({
