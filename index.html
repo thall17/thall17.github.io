@@ -32,7 +32,7 @@
       }
       /*.fa-github:hover {
         color: gray;
-      }*/ 
+      }*/
       .fa-github {
         color: white;
       }
@@ -48,6 +48,32 @@
       .fa-envelope {
         color: white;
       }
+
+      ul.footer-icons {
+        border: .25em solid skyBlue;
+        text-align: justify;
+      }
+      ul.footer-icons:after {
+        content: '';
+        display: inline-block;
+        width: 100%;
+      }
+      ul.footer-icons:before {
+        content: '';
+        display: block;
+        margin-top: -1.25em;
+      }
+      li.footer-icons {
+          background-color: hotPink;
+          color: #fff;
+          display: inline-block;
+          font: 1em/1.5 sans-serif;
+          margin-right: -.25em;
+          padding: .75em 1.5em;
+          position: relative;
+          top: 1.25em;
+      }
+
 
     </style>
 
@@ -163,16 +189,25 @@
     <footer class="py-5 bg-dark">
   <div class="container">
     <div class="row">
-      <div class="col-md-12">
-        <a href=https://github.com/thall17 target="_blank">
-          <i class="fa fa-github fa-4x" aria-hidden="true"></i>
-        </a>
-        <a href=https://www.linkedin.com/in/thall17/ target="_blank">
-          <i class="fa fa-linkedin fa-4x" aria-hidden="true"></i>
-        </a>
-        <a href="mailto:timhall3000@gmail.com">
-          <i class="fa fa-envelope fa-4x" aria-hidden="true"></i>
-        </a>
+      <div class="col-md-12" align="center">
+        <ul class="footer-icons">
+          <li class="footer-icons">
+            <a href=https://github.com/thall17 target="_blank">
+              <i class="fa fa-github fa-4x" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li class="footer-icons">
+            <a href=https://www.linkedin.com/in/thall17/ target="_blank">
+              <i class="fa fa-linkedin fa-4x" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li class="footer-icons">
+            <a href="mailto:timhall3000@gmail.com">
+              <i class="fa fa-envelope fa-4x" aria-hidden="true"></i>
+            </a>
+          </li>
+        </ul>
+
       </div>
       <!-- <div class="col-md-1" align="center">
         <a href=https://github.com/thall17 target="_blank">
