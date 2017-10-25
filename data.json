@@ -11,6 +11,7 @@
       "name": "makebeer.io",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.",
       "github_url": "https://github.com/thall17/makebeer",
+      "live_url": "http://makebeer.io",
       "images": {
         "preview": {
           "src": "images/makebeer/700x300.png",
@@ -34,6 +35,7 @@
       "name": "Username-checker",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.",
       "github_url": "https://github.com/thall17/username-checker",
+      "live_url": "https://stormy-peak-29072.herokuapp.com/",
       "images": {
         "preview": {
           "src": "images/username-checker/700x300.png",
