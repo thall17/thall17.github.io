@@ -1,0 +1,5 @@
+{% extends "layout.html" %}
+{% block content %}
+  {{nav.active('home')}}
+  {{project.current('portfolio', hash=projects)}}
+{% endblock %}

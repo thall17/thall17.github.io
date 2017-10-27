@@ -54,6 +54,30 @@
           "alt": "project_1 picture"
         }
       }
+    },
+    "portfolio": {
+      "name": "Portfolio",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.",
+      "github_url": "https://github.com/thall17/portfolio",
+      "live_url": "https://stormy-peak-29072.herokuapp.com/",
+      "images": {
+        "preview": {
+          "src": "images/portfolio/700x300.png",
+          "alt": "placeholder"
+        },
+        "gallery_1": {
+          "src": "images/portfolio/1900x1080_01.png",
+          "alt": "project_1 picture"
+        },
+        "gallery_2": {
+          "src": "images/portfolio/1900x1080_02.png",
+          "alt": "project_1 picture"
+        },
+        "gallery_3": {
+          "src": "images/portfolio/1900x1080_03.png",
+          "alt": "project_1 picture"
+        }
+      }
     }
   }
 }
