@@ -216,8 +216,12 @@
     <script src="vendor/jquery/jquery-ui.js"></script>
     <script>
 
-      $( "#accordion" ).accordion();
-      </script>
+      $( function() {
+        $( "#accordion" ).accordion({
+          heightStyle: "content"
+        });
+      });
+    </script>
 
   </body>
 
