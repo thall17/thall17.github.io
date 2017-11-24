@@ -67,9 +67,6 @@
         padding-right:10px;
       }
 
-      .ui-state-active a {
-        background-color: black;
-      }
     </style>
 
   </head>
@@ -240,7 +237,11 @@
     <script>
 
       $( function() {
-        $( "#accordion" ).accordion({
+        $( ".education-accordion" ).accordion({
+          heightStyle: "content",
+          collapsible: true
+        });
+        $( ".class-accordion" ).accordion({
           heightStyle: "content",
           collapsible: true
         });
