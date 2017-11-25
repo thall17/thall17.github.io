@@ -12,12 +12,26 @@
     </h1>
 
       <div class="education-accordion" style="margin: 0px 0px 24px 0px">
-        {% for school in education %}
-          <h3>Section 1</h3>
+        {% for program in education %}
+          <h3>{{program.school}}</h3>
           <div>
-            <p>Mauris mauris ante, blandit et, ultrices a, susceros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
+            <p><strong>Degree: </strong>{{program.degree}}</p>
+            <p><strong>Link: </strong><a href="{{program.url}}">{{program.url}}</a></p>
+            <p><strong>Classes: </strong></p>
+            <ul>
+            {% for class in program.classes %}
+              <li>{{class.name}}</li>
+              <ul>
+                <li>Grade: {{class.grade}}</li>
+                <li>Semester: {{class.semester}}</li>
+                <li>Description: {{class.description}}</li>
+              </ul>
+            {% endfor %}
+            </ul>
+
           </div>
         {% endfor %}
+
       </div>
     </div>
   </div>

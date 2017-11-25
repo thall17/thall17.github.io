@@ -11,9 +11,11 @@
   },
   "education": [
     {
-      "school": "Georgia Tech",
+      "school": "Georgia Institute of Technology",
       "startyear": "2017",
-      "endyear": "2019",
+      "endyear": "2019 (expected)",
+      "degree": "MS, Computer Science",
+      "url": "https://www.omscs.gatech.edu/",
       "classes": [
         {
           "name": "Software Development Process",
