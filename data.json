@@ -9,6 +9,24 @@
     "googleplus": "https://plus.google.com/u/0/+TimHall3000"
 
   },
+  "education": [
+    {
+      "school": "Georgia Tech",
+      "startyear": "2017",
+      "endyear": "2019",
+      "classes": [
+        {
+          "name": "Software Development Process",
+          "grade": "A",
+          "semester": "Spring 2017",
+          "description": "A SDP class.",
+          "topics": [
+            "topic 1", "topic 2"
+          ]
+        }
+      ]
+    }
+  ],
   "projects": {
     "makebeer": {
       "name": "makebeer.io",
