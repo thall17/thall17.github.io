@@ -25,6 +25,31 @@
           ]
         }
       ]
+    },
+    {
+      "school": "University of Washington",
+      "startyear": "2017",
+      "endyear": "2019",
+      "classes": [
+        {
+          "name": "Ruby 1",
+          "grade": "A",
+          "semester": "Spring 2017",
+          "description": "A SDP class.",
+          "topics": [
+            "topic 1", "topic 2"
+          ]
+        },
+        {
+          "name": "Ruby 2",
+          "grade": "A",
+          "semester": "Summer 2017",
+          "description": "A DB class.",
+          "topics": [
+            "topic 1", "topic 2", "topic 3"
+          ]
+        }
+      ]
     }
   ],
   "projects": {
