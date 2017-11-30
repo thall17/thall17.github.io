@@ -15,29 +15,33 @@
         {% for program in education %}
           <h3>{{program.school}} | {{program.startyear}} - {{program.endyear}}</h3>
           <div>
-
+            <p style="text-align: center">
             {%if program.degree != '' %}
-              <p><strong>Degree: </strong>{{program.degree}}</p>
+              {{program.degree}}
             {% endif %}
 
             {%if program.url != '' %}
-              <p><strong>URL: </strong>{{program.url}}</p>
+               | <a href="{{program.url}}" target="_blank">Program Info</a>
             {% endif %}
+
+            {%if program.cert != '' %}
+               | <a href="{{program.cert}}" target="_blank">View Certificate</a>
+            {% endif %}
+
+            </p>
 
             {%if program.classes.length > 1 %}
               <p><strong>Classes: </strong></p>
             {% endif %}
 
-            <ul>
+
             {% for class in program.classes %}
-              <li>{{class.name}}</li>
+            </h4>{{class.name}}</h4>
               <ul>
                 <li>Semester: {{class.semester}}</li>
                 <li>Description: {{class.description}}</li>
               </ul>
             {% endfor %}
-            </ul>
-
           </div>
         {% endfor %}
 

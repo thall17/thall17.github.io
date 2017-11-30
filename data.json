@@ -16,6 +16,7 @@
       "endyear": "2019 (expected)",
       "degree": "MS, Computer Science",
       "url": "https://www.omscs.gatech.edu/",
+      "cert": "",
       "classes": [
         {
           "name": "Software Development Process",
@@ -32,6 +33,9 @@
       "school": "University of Washington",
       "startyear": "2017",
       "endyear": "2019",
+      "degree": "Ruby on Rails Development Certification",
+      "url": "",
+      "cert": "cert/UW_Certificate.pdf",
       "classes": [
         {
           "name": "Ruby 1",
