@@ -13,16 +13,25 @@
 
       <div class="education-accordion" style="margin: 0px 0px 24px 0px">
         {% for program in education %}
-          <h3>{{program.school}}</h3>
+          <h3>{{program.school}} | {{program.startyear}} - {{program.endyear}}</h3>
           <div>
-            <p><strong>Degree: </strong>{{program.degree}}</p>
-            <p><strong>Link: </strong><a href="{{program.url}}">{{program.url}}</a></p>
-            <p><strong>Classes: </strong></p>
+
+            {%if program.degree != '' %}
+              <p><strong>Degree: </strong>{{program.degree}}</p>
+            {% endif %}
+
+            {%if program.url != '' %}
+              <p><strong>URL: </strong>{{program.url}}</p>
+            {% endif %}
+
+            {%if program.classes.length > 1 %}
+              <p><strong>Classes: </strong></p>
+            {% endif %}
+
             <ul>
             {% for class in program.classes %}
               <li>{{class.name}}</li>
               <ul>
-                <li>Grade: {{class.grade}}</li>
                 <li>Semester: {{class.semester}}</li>
                 <li>Description: {{class.description}}</li>
               </ul>
