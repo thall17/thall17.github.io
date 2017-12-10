@@ -29,21 +29,21 @@
     <style>
 
       .fa-github {
-        color: white;
+        color: #505050;
       }
 
       .fa-linkedin {
-        color: white;
+        color: #505050;
       }
       .fa-envelope {
-        color: white;
+        color: #505050;
       }
       .fa-stack-overflow {
-        color: white;
+        color: #505050;
       }
 
       .fa-google-plus {
-        color: white;
+        color: #505050;
       }
 
       ul.footer-icons {
@@ -67,11 +67,25 @@
         padding-right:10px;
       }
 
+      .ui-accordion-header {
+        border: 1px solid #c5c5c5;
+        background: #f6f6f6;
+        font-weight: normal;
+        color: #454545;
+      }
+
+      .ui-accordion-header.ui-state-active {
+        /*border: 1px solid #c5c5c5;*/
+        background: #FFFF99;
+        font-weight: normal;
+        color: #454545;
+       }
+
     </style>
 
   </head>
 
-  <body style="color:#000009">
+  <body style="color:#505050">
 
     <!-- Importing Nunjucks Macro -->
     {% import 'macros/nav-macro.html' as nav %}
@@ -92,10 +106,6 @@
 
       $( function() {
         $( ".education-accordion" ).accordion({
-          heightStyle: "content",
-          collapsible: true
-        });
-        $( ".class-accordion" ).accordion({
           heightStyle: "content",
           collapsible: true
         });
