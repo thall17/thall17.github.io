@@ -1,5 +1,4 @@
-{% extends "layout.html" %}
-{% block content %}
+{% extends "layout.html" %} {% block content %}
 
 <!-- Creating the navigation with activePage = 'home' -->
 {{nav.active('about')}}
@@ -34,40 +33,35 @@
   <div class="row">
     <div class="col-md-12">
       <div class="education-accordion" style="margin: 0px 0px 24px 0px">
-    {% for program in education %}
-      <h3>{{program.school}} | {{program.startyear}} - {{program.endyear}}</h3>
-      <div>
-        <p style="text-align: center">
-        {%if program.degree != '' %}
-          {{program.degree}}
-        {% endif %}
+        {% for program in education %}
+        <h3>{{program.school}} | {{program.startyear}} - {{program.endyear}}</h3>
+        <div>
+          <p style="text-align: center">
+            {%if program.degree != '' %} {{program.degree}} {% endif %} {%if program.url != '' %} | <a style="color:#007bff" href="{{program.url}}" target="_blank">Program Info</a> {% endif %} {%if program.cert != '' %} | <a style="color:#007bff" href="{{program.cert}}"
+              target="_blank">View Certificate</a> {% endif %}
 
-        {%if program.url != '' %}
-           | <a style="color:#007bff" href="{{program.url}}" target="_blank">Program Info</a>
-        {% endif %}
+          </p>
 
-        {%if program.cert != '' %}
-           | <a style="color:#007bff" href="{{program.cert}}" target="_blank">View Certificate</a>
-        {% endif %}
-
-        </p>
-
-        {%if program.classes.length > 1 %}
+          {%if program.classes.length > 1 %}
           <p><strong>Classes: </strong></p>
-        {% endif %}
-
-
-        {% for class in program.classes %}
-        </h4>{{class.name}}</h4>
+          {% endif %} {% for class in program.classes %}
+          </h4>{{class.name}}</h4>
           <ul>
             <li>Semester: {{class.semester}}</li>
             <li>Description: {{class.description}}</li>
           </ul>
+          {% endfor %}
+        </div>
         {% endfor %}
       </div>
-    {% endfor %}
+    </div>
   </div>
+  <!-- /.row -->
+  <div class="row">
+    <div class="col-md-12">
+      <h1 class="my-4">Contact</h1>
+    </div>
   </div>
-</div>
+  <!-- /.row -->
 </div>
 {% endblock %}
