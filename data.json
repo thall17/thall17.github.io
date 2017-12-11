@@ -35,7 +35,7 @@
       "endyear": "2019",
       "degree": "Ruby on Rails Development Certification",
       "url": "",
-      "cert": "cert/UW_Certificate.pdf",
+      "cert": "UW_Certificate",
       "classes": [
         {
           "name": "Ruby 1",
@@ -53,6 +53,82 @@
           "description": "A DB class.",
           "topics": [
             "topic 1", "topic 2", "topic 3"
+          ]
+        }
+      ]
+    },
+    {
+      "school": "Udacity",
+      "startyear": "2017",
+      "endyear": "2019 (expected)",
+      "degree": "Frontend Web Developer Nanodegree",
+      "url": "https://www.omscs.gatech.edu/",
+      "cert": "TimHall_Udacity_FrontendNanodegreeCertificate_20170424",
+      "classes": [
+        {
+          "name": "Software Development Process",
+          "grade": "A",
+          "semester": "Spring 2017",
+          "description": "A SDP class.",
+          "topics": [
+            "topic 1", "topic 2"
+          ]
+        }
+      ]
+    },
+    {
+      "school": "Georgia Institute of Technology",
+      "startyear": "2017",
+      "endyear": "2019 (expected)",
+      "degree": "MS, Computer Science",
+      "url": "https://www.omscs.gatech.edu/",
+      "cert": "",
+      "classes": [
+        {
+          "name": "Software Development Process",
+          "grade": "A",
+          "semester": "Spring 2017",
+          "description": "A SDP class.",
+          "topics": [
+            "topic 1", "topic 2"
+          ]
+        }
+      ]
+    },
+    {
+      "school": "Georgia Institute of Technology",
+      "startyear": "2017",
+      "endyear": "2019 (expected)",
+      "degree": "MS, Computer Science",
+      "url": "https://www.omscs.gatech.edu/",
+      "cert": "",
+      "classes": [
+        {
+          "name": "Software Development Process",
+          "grade": "A",
+          "semester": "Spring 2017",
+          "description": "A SDP class.",
+          "topics": [
+            "topic 1", "topic 2"
+          ]
+        }
+      ]
+    },
+    {
+      "school": "Georgia Institute of Technology",
+      "startyear": "2017",
+      "endyear": "2019 (expected)",
+      "degree": "MS, Computer Science",
+      "url": "https://www.omscs.gatech.edu/",
+      "cert": "",
+      "classes": [
+        {
+          "name": "Software Development Process",
+          "grade": "A",
+          "semester": "Spring 2017",
+          "description": "A SDP class.",
+          "topics": [
+            "topic 1", "topic 2"
           ]
         }
       ]
