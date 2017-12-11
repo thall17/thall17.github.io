@@ -19,9 +19,7 @@
   <!-- /.row -->
   <div class="row">
     <div class="col-md-12">
-      <h1 class="my-4">Education
-      <small>Secondary Text</small>
-      </h1>
+      <h1 class="my-4">Education</h1>
     </div>
   </div>
   <!-- /.row -->
@@ -37,11 +35,11 @@
         {% endif %}
 
         {%if program.url != '' %}
-           | <a href="{{program.url}}" target="_blank">Program Info</a>
+           | <a style="color:#007bff" href="{{program.url}}" target="_blank">Program Info</a>
         {% endif %}
 
         {%if program.cert != '' %}
-           | <a href="{{program.cert}}" target="_blank">View Certificate</a>
+           | <a style="color:#007bff" href="{{program.cert}}" target="_blank">View Certificate</a>
         {% endif %}
 
         </p>
