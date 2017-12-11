@@ -34,7 +34,10 @@
     <div class="col-md-12">
       <div class="education-accordion" style="margin: 0px 0px 24px 0px">
         {% for program in education %}
-        <h3>{{program.school}} | {{program.startyear}} - {{program.endyear}}</h3>
+        <h3>
+          <span>{{program.school}}</span>
+          <span style="float: right">{{program.startyear}}{%if program.endyear != program.startyear %} - {{program.endyear}} {% endif %}</span>
+        </h3>
         <div>
           <p style="text-align: center">
             {%if program.degree != '' %} {{program.degree}} {% endif %} {%if program.url != '' %} | <a style="color:#007bff" href="{{program.url}}" target="_blank">Program Info</a> {% endif %} {%if program.cert != '' %} | <a style="color:#007bff" href="cert/{{program.cert}}.pdf"
