@@ -12,10 +12,11 @@
   <!-- /.row -->
   <div class="row">
     <div class="col-md-3">
-      <img class="img-fluid rounded mb-3 mb-md-0" src="http://placehold.it/200x200" alt="">
+      <img class="img-fluid img-circle mb-3 mb-md-0" src="http://placehold.it/200x200" alt="">
     </div>
     <div class="col-md-9">
-      <p class="align-middle">{{about.description}}</p>
+      <p>{{about.description}}</p>
+      <p>Want to get in touch? <a href="mailto:{{about.email}}" alt="Email me at timhall3000@gmail.com">Email me</a> or reach out using any of the social buttons at the bottom of my site.</p>
     </div>
   </div>
   <!-- /.row -->
@@ -37,15 +38,9 @@
           <div class="row">
             <div class="col-md-12">
               <p style="text-align: right">
-                 {%if program.url != '' %}
-                  <a style="color:#007bff" href="{{program.ur}}" target="_blank">Program Info</a>
-                  {%if program.cert != '' %}
-                   |
-                  {% endif %}
-                 {% endif %}
-                 {%if program.cert != '' %}
-                  <a style="color:#007bff" href="cert/{{program.cert}}.pdf" target="_blank">View Certificate</a>
-                 {% endif %}
+                {%if program.url != '' %}
+                <a style="color:#007bff" href="{{program.ur}}" target="_blank">Program Info</a> {%if program.cert != '' %} | {% endif %} {% endif %} {%if program.cert != '' %}
+                <a style="color:#007bff" href="cert/{{program.cert}}.pdf" target="_blank">View Certificate</a> {% endif %}
               </p>
             </div>
           </div>
@@ -55,47 +50,43 @@
               <p>{{program.description}}</p>
             </div>
           </div>
-        <!-- ./row -->
-        <div class="row">
-          <div class="col-md-12">
-            <hr />
+          <!-- ./row -->
+          <div class="row">
+            <div class="col-md-12">
+              <hr />
+            </div>
           </div>
-        </div>
-        <!-- ./row -->
-        <div class="row">
-          <div class="col-md-2">
+          <!-- ./row -->
+          <div class="row">
+            <div class="col-md-1">
 
-          </div>
-          <div class="col-md-8" style="text-align:center">
-            <!-- {%if program.classes.length > 1 %}
+            </div>
+            <div class="col-md-10">
+              <!-- {%if program.classes.length > 1 %}
             <h4>Classes</h4>
             {% endif %} -->
-            {% for class in program.classes %}
+              {% for class in program.classes %}
               <h4>{{class.name}} | {{class.semester}}</h4>
               <p>{{class.description}}</p>
               <!-- <hr  /> -->
-            {% endfor %}
-          </div>
-          <div class="col-md-2">
-
-          </div>
-        </div>
-
+              {% endfor %}
+            </div>
+            <div class="col-md-1">
 
             </div>
-          {% endfor %}
-            <!-- ./body of accordion cell -->
-
           </div>
-          <!-- ./accordion -->
+
+
         </div>
+        {% endfor %}
+        <!-- ./body of accordion cell -->
+
       </div>
-      <!-- ./row surrounding accordion -->
-      <div class="row">
-        <div class="col-md-12">
-          <h1 class="my-4">Contact</h1>
-        </div>
-      </div>
+      <!-- ./accordion -->
     </div>
-    <!-- ./container -->
+  </div>
+  <!-- ./row surrounding accordion -->
+
+</div>
+<!-- ./container -->
 {% endblock %}
