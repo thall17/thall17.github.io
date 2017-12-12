@@ -9,18 +9,13 @@
       <h1 class="my-4">About Me</h1>
     </div>
   </div>
-  <div class="row">
-    <!-- <div class="col-md-12" align="center" style="margin:16px 0px 16px 0px"> -->
-    <!-- <div class="col-md-12" style="margin:16px 0px 16px 0px"> -->
-    <div class="col-md-12">
-
-      <img class="img-fluid rounded mb-3 mb-md-0" src="http://placehold.it/200x200" alt="">
-    </div>
-  </div>
   <!-- /.row -->
   <div class="row">
-    <div class="col-md-12">
-      <p style="text-align: left">{{about.description}}</p>
+    <div class="col-md-3">
+      <img class="img-fluid rounded mb-3 mb-md-0" src="http://placehold.it/200x200" alt="">
+    </div>
+    <div class="col-md-9">
+      <p class="align-middle">{{about.description}}</p>
     </div>
   </div>
   <!-- /.row -->
@@ -35,41 +30,72 @@
       <div class="education-accordion" style="margin: 0px 0px 24px 0px">
         {% for program in education %}
         <h3>
-          <span>{{program.school}}</span>
-          <span style="float: right">{{program.startyear}}{%if program.endyear != program.startyear %} - {{program.endyear}} {% endif %}</span>
+          <span>{%if program.degree != '' %} {{program.degree}}, {{program.school}}</span>
+          <span style="float: right">{% endif %}{{program.startyear}}{%if program.endyear != program.startyear %} - {{program.endyear}} {% endif %}</span>
         </h3>
         <div>
-          <p style="text-align: center">
-            {%if program.degree != '' %} {{program.degree}} {% endif %} {%if program.url != '' %} | <a style="color:#007bff" href="{{program.url}}" target="_blank">Program Info</a> {% endif %} {%if program.cert != '' %} | <a style="color:#007bff" href="cert/{{program.cert}}.pdf"
-              target="_blank">View Certificate</a> {% endif %}
-
-          </p>
-
-          <table class="table">
-
-          </table>
-
-          {%if program.classes.length > 1 %}
-          <p><strong>Classes: </strong></p>
-          {% endif %}
-          {% for class in program.classes %}
-            </h4>{{class.name}}</h4>
-            <ul>
-              <li>Semester: {{class.semester}}</li>
-              <li>Description: {{class.description}}</li>
-            </ul>
-          {% endfor %}
+          <div class="row">
+            <div class="col-md-12">
+              <p style="text-align: right">
+                 {%if program.url != '' %}
+                  <a style="color:#007bff" href="{{program.ur}}" target="_blank">Program Info</a>
+                  {%if program.cert != '' %}
+                   |
+                  {% endif %}
+                 {% endif %}
+                 {%if program.cert != '' %}
+                  <a style="color:#007bff" href="cert/{{program.cert}}.pdf" target="_blank">View Certificate</a>
+                 {% endif %}
+              </p>
+            </div>
+          </div>
+          <!-- ./row -->
+          <div class="row">
+            <div class="col-md-12">
+              <p>{{program.description}}</p>
+            </div>
+          </div>
+        <!-- ./row -->
+        <div class="row">
+          <div class="col-md-12">
+            <hr />
+          </div>
         </div>
-        {% endfor %}
+        <!-- ./row -->
+        <div class="row">
+          <div class="col-md-2">
+
+          </div>
+          <div class="col-md-8" style="text-align:center">
+            <!-- {%if program.classes.length > 1 %}
+            <h4>Classes</h4>
+            {% endif %} -->
+            {% for class in program.classes %}
+              <h4>{{class.name}} | {{class.semester}}</h4>
+              <p>{{class.description}}</p>
+              <!-- <hr  /> -->
+            {% endfor %}
+          </div>
+          <div class="col-md-2">
+
+          </div>
+        </div>
+
+
+            </div>
+          {% endfor %}
+            <!-- ./body of accordion cell -->
+
+          </div>
+          <!-- ./accordion -->
+        </div>
+      </div>
+      <!-- ./row surrounding accordion -->
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="my-4">Contact</h1>
+        </div>
       </div>
     </div>
-  </div>
-  <!-- /.row -->
-  <div class="row">
-    <div class="col-md-12">
-      <h1 class="my-4">Contact</h1>
-    </div>
-  </div>
-  <!-- /.row -->
-</div>
+    <!-- ./container -->
 {% endblock %}
