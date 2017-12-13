@@ -69,10 +69,16 @@
             <h4>Classes</h4>
             {% endif %} -->
               {% for class in program.classes %}
-              <h4>{{class.name}} | {{class.semester}}</h4>
+              <h4>{{class.name}}
+                <small class="text-muted">{{class.semester}}</small>
+              </h4>
+              {% if class.grade != ''%}
+                <p><strong>Final Grade:</strong> {{class.grade}}</p>
+              {% endif %}
               <p>{{class.description}}</p>
               <!-- <hr  /> -->
               {% endfor %}
+
             </div>
             <div class="col-md-1">
 
