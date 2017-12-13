@@ -45,7 +45,7 @@
   <div class="container">
     <h1>{{hash[project].name}}</h1>
     <p>{{hash[project].description}}</p>
-    {%if hash[project].github_url == '' %}
+    {%if hash[project].github_url != '' %}
       <p><strong>Source:</strong>  <a href="{{hash[project].github_url}}" target="_blank">{{hash[project].github_url}}</a></p>
     {% else %}
       <p>Unfortunately, I'm not permitted to share the source code for any of my Georgia Tech assignments.</p>
@@ -55,7 +55,7 @@
     {% endif %}
 
     <!-- <p><i class="fa fa-github fa-2x" aria-hidden="true"></i> <a href="{{hash[project].github_url}}" target="_blank">{{hash[project].github_url}}</a></p> -->
-    <a class="btn btn-sm btn-success" href="index.html">Back to Projects</a>
+    <a class="btn btn-sm btn-outline-secondary" href="index.html">Back to Projects</a>
   </div>
 </section>
 {% endmacro %}

@@ -14,28 +14,11 @@
       "school": "Georgia Institute of Technology",
       "startyear": "2017",
       "endyear": "2019 (expected)",
-      "degree": "MS, Computer Science",
+      "degree": "MS Computer Science",
       "url": "https://www.omscs.gatech.edu/",
       "cert": "",
-      "classes": [
-        {
-          "name": "Software Development Process",
-          "grade": "A",
-          "semester": "Spring 2017",
-          "description": "A SDP class.",
-          "topics": [
-            "topic 1", "topic 2"
-          ]
-        }
-      ]
-    },
-    {
-      "school": "University of Washington",
-      "startyear": "2017",
-      "endyear": "2019",
-      "degree": "Ruby on Rails Development Certification",
-      "url": "",
-      "cert": "cert/UW_Certificate.pdf",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.",
+      "logo": "gt.png",
       "classes": [
         {
           "name": "Ruby 1",
@@ -53,6 +36,115 @@
           "description": "A DB class.",
           "topics": [
             "topic 1", "topic 2", "topic 3"
+          ]
+        }
+      ]
+    },
+    {
+      "school": "University of Washington",
+      "startyear": "2017",
+      "endyear": "2019",
+      "degree": "Ruby on Rails Development Certification",
+      "url": "",
+      "cert": "UW_Certificate",
+      "description": "Some description about the program",
+      "classes": [
+        {
+          "name": "Ruby 1",
+          "grade": "A",
+          "semester": "Spring 2017",
+          "description": "A SDP class.",
+          "topics": [
+            "topic 1", "topic 2"
+          ]
+        },
+        {
+          "name": "Ruby 2",
+          "grade": "A",
+          "semester": "Summer 2017",
+          "description": "A DB class.",
+          "topics": [
+            "topic 1", "topic 2", "topic 3"
+          ]
+        }
+      ]
+    },
+    {
+      "school": "Udacity",
+      "startyear": "2017",
+      "endyear": "2017",
+      "degree": "Frontend Web Developer Nanodegree",
+      "url": "https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001",
+      "cert": "TimHall_Udacity_FrontendNanodegreeCertificate_20170424",
+      "description": "Some description about the program",
+      "classes": [
+        {
+          "name": "Software Development Process",
+          "grade": "A",
+          "semester": "Spring 2017",
+          "description": "A SDP class.",
+          "topics": [
+            "topic 1", "topic 2"
+          ]
+        }
+      ]
+    },
+    {
+      "school": "Georgia Institute of Technology",
+      "startyear": "2017",
+      "endyear": "2019 (expected)",
+      "degree": "MS, Computer Science",
+      "url": "https://www.omscs.gatech.edu/",
+      "cert": "",
+      "description": "Some description about the program",
+      "classes": [
+        {
+          "name": "Software Development Process",
+          "grade": "A",
+          "semester": "Spring 2017",
+          "description": "A SDP class.",
+          "topics": [
+            "topic 1", "topic 2"
+          ]
+        }
+      ]
+    },
+    {
+      "school": "Georgia Institute of Technology",
+      "startyear": "2017",
+      "endyear": "2019 (expected)",
+      "degree": "MS, Computer Science",
+      "url": "https://www.omscs.gatech.edu/",
+      "cert": "",
+      "description": "Some description about the program",
+      "classes": [
+        {
+          "name": "Software Development Process",
+          "grade": "A",
+          "semester": "Spring 2017",
+          "description": "A SDP class.",
+          "topics": [
+            "topic 1", "topic 2"
+          ]
+        }
+      ]
+    },
+    {
+      "school": "Georgia Institute of Technology",
+      "startyear": "2017",
+      "endyear": "2019 (expected)",
+      "degree": "MS, Computer Science",
+      "url": "https://www.omscs.gatech.edu/",
+      "cert": "",
+      "description": "Some description about the program",
+      "classes": [
+        {
+          "name": "Software Development Process",
+          "grade": "A",
+          "semester": "Spring 2017",
+          "description": "A SDP class.",
+          "topics": [
+            "topic 1", "topic 2"
           ]
         }
       ]

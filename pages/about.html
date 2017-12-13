@@ -1,67 +1,101 @@
-{% extends "layout.html" %}
-{% block content %}
+{% extends "layout.html" %} {% block content %}
 
 <!-- Creating the navigation with activePage = 'home' -->
 {{nav.active('about')}}
 
 <div class="container">
   <div class="row">
-    <div class="col-md-12" align="center" style="margin:16px 0px 16px 0px">
-      <img class="img-fluid rounded mb-3 mb-md-0" src="http://placehold.it/200x200" alt="">
+    <div class="col-md-12">
+      <h1 class="my-4">About Me</h1>
     </div>
   </div>
   <!-- /.row -->
   <div class="row">
     <div class="col-md-12">
-      <p style="text-align: center">{{about.description}}</p>
+      <img class="img-fluid img-circle mb-3 mb-md-0" src="http://placehold.it/200x200" alt="">
+    </div>
+  </div>
+  <!-- ./row -->
+  <div class="row">
+    <div class="col-md-12">
+      <p>{{about.description}}</p>
+      <p>Want to get in touch? <a href="mailto:{{about.email}}" alt="Email me at timhall3000@gmail.com">Email me</a> or reach out using any of the social buttons at the bottom of my site.</p>
     </div>
   </div>
   <!-- /.row -->
   <div class="row">
     <div class="col-md-12">
-      <h1 class="my-4">Education
-      <small>Secondary Text</small>
-      </h1>
+      <h1 class="my-4">Education</h1>
     </div>
   </div>
   <!-- /.row -->
   <div class="row">
     <div class="col-md-12">
       <div class="education-accordion" style="margin: 0px 0px 24px 0px">
-    {% for program in education %}
-      <h3>{{program.school}} | {{program.startyear}} - {{program.endyear}}</h3>
-      <div>
-        <p style="text-align: center">
-        {%if program.degree != '' %}
-          {{program.degree}}
-        {% endif %}
+        {% for program in education %}
+        <h3>
+          <span>{%if program.degree != '' %} {{program.degree}}, {{program.school}}</span>
+          <span style="float: right">{% endif %}{{program.startyear}}{%if program.endyear != program.startyear %} - {{program.endyear}} {% endif %}</span>
+        </h3>
+        <div>
+          <div class="row">
+            <div class="col-md-12">
+              <p style="text-align: right">
+                {%if program.url != '' %}
+                <a style="color:#007bff" href="{{program.ur}}" target="_blank">Program Info</a> {%if program.cert != '' %} | {% endif %} {% endif %} {%if program.cert != '' %}
+                <a style="color:#007bff" href="cert/{{program.cert}}.pdf" target="_blank">View Certificate</a> {% endif %}
+              </p>
+            </div>
+          </div>
+          <!-- ./row -->
+          <div class="row">
+            <div class="col-md-12">
+              <p>{{program.description}}</p>
+            </div>
+          </div>
+          <!-- ./row -->
+          <div class="row">
+            <div class="col-md-12">
+              <hr />
+            </div>
+          </div>
+          <!-- ./row -->
+          <div class="row">
+            <div class="col-md-1">
 
-        {%if program.url != '' %}
-           | <a href="{{program.url}}" target="_blank">Program Info</a>
-        {% endif %}
+            </div>
+            <div class="col-md-10">
+              <!-- {%if program.classes.length > 1 %}
+            <h4>Classes</h4>
+            {% endif %} -->
+              {% for class in program.classes %}
+              <h4>{{class.name}}
+                <small class="text-muted">{{class.semester}}</small>
+              </h4>
+              {% if class.grade != ''%}
+                <p><strong>Final Grade:</strong> {{class.grade}}</p>
+              {% endif %}
+              <p>{{class.description}}</p>
+              <!-- <hr  /> -->
+              {% endfor %}
 
-        {%if program.cert != '' %}
-           | <a href="{{program.cert}}" target="_blank">View Certificate</a>
-        {% endif %}
+            </div>
+            <div class="col-md-1">
 
-        </p>
-
-        {%if program.classes.length > 1 %}
-          <p><strong>Classes: </strong></p>
-        {% endif %}
+            </div>
+          </div>
 
 
-        {% for class in program.classes %}
-        </h4>{{class.name}}</h4>
-          <ul>
-            <li>Semester: {{class.semester}}</li>
-            <li>Description: {{class.description}}</li>
-          </ul>
+        </div>
         {% endfor %}
+        <!-- ./body of accordion cell -->
+
       </div>
-    {% endfor %}
+      <!-- ./accordion -->
+    </div>
   </div>
-  </div>
+  <!-- ./row surrounding accordion -->
+
 </div>
-</div>
+<!-- ./container -->
 {% endblock %}

@@ -29,21 +29,21 @@
     <style>
 
       .fa-github {
-        color: white;
+        color: #505050;
       }
 
       .fa-linkedin {
-        color: white;
+        color: #505050;
       }
       .fa-envelope {
-        color: white;
+        color: #505050;
       }
       .fa-stack-overflow {
-        color: white;
+        color: #505050;
       }
 
       .fa-google-plus {
-        color: white;
+        color: #505050;
       }
 
       ul.footer-icons {
@@ -67,11 +67,29 @@
         padding-right:10px;
       }
 
+      .ui-accordion-header {
+        border: 1px solid #c5c5c5;
+        background: #f6f6f6;
+        font-weight: normal;
+        color: #454545;
+      }
+
+      .ui-accordion-header.ui-state-active {
+        /*border: 1px solid #c5c5c5;*/
+        /*background: #FFFF99;*/
+        font-weight: normal;
+        color: #454545;
+       }
+
+       .ui-state-active .ui-icon, .ui-button:active .ui-icon {
+          background-image: url(css/images/ui-icons_555555_256x240.png);
+       }
+
     </style>
 
   </head>
 
-  <body>
+  <body style="color:#505050">
 
     <!-- Importing Nunjucks Macro -->
     
@@ -122,42 +140,42 @@
     
       <div class="row">
         <div class="col-md-7">
-          <a href="#">
+          <a href="makebeer.html">
             <img class="img-fluid rounded mb-3 mb-md-0" src="images/makebeer/700x300.png" alt="placeholder" title="placeholder">
           </a>
         </div>
         <div class="col-md-5">
           <h3>makebeer.io</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
-          <a class="btn btn-primary" href="makebeer.html">View Project</a>
+          <a class="btn btn-sm btn-outline-success" href="makebeer.html">View Project</a>
         </div>
       </div>
       <hr>
     
       <div class="row">
         <div class="col-md-7">
-          <a href="#">
+          <a href="username-checker.html">
             <img class="img-fluid rounded mb-3 mb-md-0" src="images/username-checker/700x300.png" alt="placeholder" title="placeholder">
           </a>
         </div>
         <div class="col-md-5">
           <h3>Username-checker</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
-          <a class="btn btn-primary" href="username-checker.html">View Project</a>
+          <a class="btn btn-sm btn-outline-success" href="username-checker.html">View Project</a>
         </div>
       </div>
       <hr>
     
       <div class="row">
         <div class="col-md-7">
-          <a href="#">
+          <a href="portfolio.html">
             <img class="img-fluid rounded mb-3 mb-md-0" src="images/portfolio/700x300.png" alt="placeholder" title="placeholder">
           </a>
         </div>
         <div class="col-md-5">
           <h3>Portfolio</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
-          <a class="btn btn-primary" href="portfolio.html">View Project</a>
+          <a class="btn btn-sm btn-outline-success" href="portfolio.html">View Project</a>
         </div>
       </div>
       <hr>
@@ -191,7 +209,9 @@
 
 
     <!-- Footer -->
-    <footer class="py-3 bg-dark">
+    <!-- <footer class="py-3 bg-dark" style="background-color: blue !important"> -->
+<footer class="py-3 bg-light" style="border-top: 1px solid #e5e5e5 !important">
+
   <div class="container">
     <div class="row">
       <div class="col-md-12" align="center">
@@ -239,11 +259,8 @@
       $( function() {
         $( ".education-accordion" ).accordion({
           heightStyle: "content",
-          collapsible: true
-        });
-        $( ".class-accordion" ).accordion({
-          heightStyle: "content",
-          collapsible: true
+          collapsible: true,
+          active: false
         });
       });
     </script>
