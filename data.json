@@ -182,8 +182,8 @@
       ]
     }
   ],
-  "projects": {
-    "makebeer": {
+  "projects": [
+    {
       "name": "makebeer.io",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.",
       "github_url": "https://github.com/thall17/makebeer",
@@ -207,7 +207,7 @@
         }
       }
     },
-    "username-checker": {
+    {
       "name": "Username-checker",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.",
       "github_url": "https://github.com/thall17/username-checker",
@@ -231,7 +231,7 @@
         }
       }
     },
-    "portfolio": {
+    {
       "name": "Portfolio",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.",
       "github_url": "https://github.com/thall17/portfolio",
@@ -255,5 +255,5 @@
         }
       }
     }
-  }
+  ]
 }
