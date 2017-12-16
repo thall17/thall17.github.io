@@ -51,34 +51,14 @@
       ]
     },
     {
-      "school": "Stanford/Coursera",
-      "startyear": "2017",
-      "endyear": "2019",
+      "school": "Stanford Online",
+      "startyear": "2016",
+      "endyear": "2016",
       "degree": "Machine Learning",
-      "url": "",
+      "url": "http://online.stanford.edu/course/machine-learning",
       "cert": "Coursera_E28H87675AWR_TimHall",
-      "description": "Some description about the program",
-      "logo": "coursera.png",
-      "classes": [
-        {
-          "name": "Ruby 1",
-          "grade": "A",
-          "semester": "Spring 2017",
-          "description": "A SDP class.",
-          "topics": [
-            "topic 1", "topic 2"
-          ]
-        },
-        {
-          "name": "Ruby 2",
-          "grade": "A",
-          "semester": "Summer 2017",
-          "description": "A DB class.",
-          "topics": [
-            "topic 1", "topic 2", "topic 3"
-          ]
-        }
-      ]
+      "description": "This course provides a broad introduction to machine learning, datamining, and statistical pattern recognition. Topics include: (i) Supervised learning (parametric/non-parametric algorithms, support vector machines, kernels, neural networks). (ii) Unsupervised learning (clustering, dimensionality reduction, recommender systems, deep learning). (iii) Best practices in machine learning (bias/variance theory; innovation process in machine learning and AI). The course will also draw from numerous case studies and applications, so that you'll also learn how to apply learning algorithms to building smart robots (perception, control), text understanding (web search, anti-spam), computer vision, medical informatics, audio, database mining, and other areas.",
+      "logo": "stanford.png"
     },
     {
       "school": "University of Washington",
