@@ -21,22 +21,25 @@
       "logo": "gt.png",
       "classes": [
         {
-          "name": "Ruby 1",
-          "grade": "A",
-          "semester": "Spring 2017",
-          "description": "A SDP class.",
-          "topics": [
-            "topic 1", "topic 2"
-          ]
+          "name": "CS 6750 Human-Computer Interaction",
+          "grade": "In progress",
+          "semester": "Spring 2018",
+          "description": "This course is an introductory course on human-computer interaction. It does not presuppose any earlier knowledge of human-computer interaction, computer science, or psychology. The class covers three broad categories of topics within human-computer interaction: (a) the principles and characteristics of the interaction between humans and computers; (b) the techniques for designing and evaluating user-centered systems; and (c) current areas of cutting-edge research and development in human-computer interaction.",
+          "url": "http://www.omscs.gatech.edu/cs-6750-human-computer-interaction"
         },
         {
-          "name": "Ruby 2",
+          "name": "CS 6400 Database Systems Concepts and Design",
+          "grade": "A",
+          "semester": "Fall 2017",
+          "description": "This course presents an example of applying a database application development methodology to a major real-world project. All the database concepts, techniques and tools that are needed to develop a database application from scratch are introduced along the way when they are needed. In parallel - slightly delayed - learners in the course will apply the database application development methodology, the techniques, and the tools to their own major class team project. In addition to the development methodology, techniques and tools learned in this course will include the Extended Entity Relationship Model, the Relational Model, Relational algebra, calculus and SQL, database normalization, efficiency and indexing. Finally, techniques and tools for metadata management and archival will be presented.",
+          "url":"https://www.omscs.gatech.edu/cs-6400-database-systems-concepts-and-design"
+        },
+        {
+          "name": "CS 6300 Software Development Process",
           "grade": "A",
           "semester": "Summer 2017",
-          "description": "A DB class.",
-          "topics": [
-            "topic 1", "topic 2", "topic 3"
-          ]
+          "description": "This course provides an in-depth study of the process of developing software systems, including the use of software processes in actual product development, techniques used to ensure quality of the software products and maintenance tasks performed as software evolves. By the end of the course, students will understand the role of software processes in the development of software and will have experienced several types of processes, from rigid to agile. Students will also become familiar with a variety of modern technologies and development techniques and understand their connection to software processes.",
+          "url": "https://www.omscs.gatech.edu/cs-6300-software-development-process"
         }
       ]
     },
