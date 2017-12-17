@@ -79,19 +79,9 @@
       "degree": "Certified Quality Engineer",
       "url": "https://asq.org/cert/resource/docs/2016/CQE%20BOK%202015.pdf",
       "cert": "TimHall_CQE_Certification",
-      "description": "The Certified Quality Engineer (CQE) is a professional who understands the
-        principles of product and service quality evaluation and control. This body of
-        knowledge and applied technologies include, but are not limited to, development
-        and operation of quality control systems, application and analysis of testing
-        and inspection procedures, the ability to use metrology and statistical methods
-        to diagnose and correct improper quality control practices, an understanding of
-        human factors and motivation, familiarity with quality cost concepts and techniques,
-        and the knowledge and ability to develop and administer management information
-        systems and to audit quality systems for deficiency identification and correction",
+      "description": "The Certified Quality Engineer (CQE) is a professional who understands the principles of product and service quality evaluation and control. This body of knowledge and applied technologies include, but are not limited to, development and operation of quality control systems, application and analysis of testing and inspection procedures, the ability to use metrology and statistical methods to diagnose and correct improper quality control practices, an understanding of human factors and motivation, familiarity with quality cost concepts and techniques, and the knowledge and ability to develop and administer management information systems and to audit quality systems for deficiency identification and correction.",
       "logo": "asq.png",
       "classes": []
-        }
-      ]
     },
     {
       "school": "University of Washington",
