@@ -87,12 +87,34 @@
       "school": "University of Washington",
       "startyear": "2015",
       "endyear": "2015",
-      "degree": "Frontend Web Developer Nanodegree",
-      "url": "https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001",
-      "cert": "TimHall_Udacity_FrontendNanodegreeCertificate_20170424",
-      "description": "Demand for front end developers is widespread across every industry, and continues to rise. By mastering the valuable skills taught in this program, you’ll be prepared for roles at a wide array of companies, from startups to global organizations. The projects you’ll build, and the portfolio you’ll develop, will provide ample evidence of your expertise.",
-      "logo": "udacity.png",
-      "classes": []
+      "degree": "Ruby on Rails Developer Certificate",
+      "url": "",
+      "cert": "UW_Certificate",
+      "description": "Ruby program description",
+      "logo": "uw.png",
+      "classes": [
+        {
+          "name": "Ruby 1",
+          "grade": "",
+          "semester": "Fall 2017",
+          "description": "This project-based course will explore research topics in computer networking, primarily at the IP layer and above. Students will gain exposure to burgeoning areas of computer networking and learn how to use the tools commonly used for networking research, today.",
+          "url":"https://www.omscs.gatech.edu/cs-6250-computer-networks"
+        },
+        {
+          "name": "Ruby 2",
+          "grade": "",
+          "semester": "Fall 2017",
+          "description": "This project-based course will explore research topics in computer networking, primarily at the IP layer and above. Students will gain exposure to burgeoning areas of computer networking and learn how to use the tools commonly used for networking research, today.",
+          "url":"https://www.omscs.gatech.edu/cs-6250-computer-networks"
+        },
+        {
+          "name": "Ruby 3",
+          "grade": "",
+          "semester": "Fall 2017",
+          "description": "This project-based course will explore research topics in computer networking, primarily at the IP layer and above. Students will gain exposure to burgeoning areas of computer networking and learn how to use the tools commonly used for networking research, today.",
+          "url":"https://www.omscs.gatech.edu/cs-6250-computer-networks"
+        }
+      ]
     },
     {
       "school": "UCLA Extension",
