@@ -51,6 +51,17 @@
       ]
     },
     {
+      "school": "Udacity",
+      "startyear": "2017",
+      "endyear": "2017",
+      "degree": "Frontend Web Developer Nanodegree",
+      "url": "https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001",
+      "cert": "TimHall_Udacity_FrontendNanodegreeCertificate_20170424",
+      "description": "Demand for front end developers is widespread across every industry, and continues to rise. By mastering the valuable skills taught in this program, you’ll be prepared for roles at a wide array of companies, from startups to global organizations. The projects you’ll build, and the portfolio you’ll develop, will provide ample evidence of your expertise.",
+      "logo": "udacity.png",
+      "classes": []
+    },
+    {
       "school": "Stanford Online",
       "startyear": "2016",
       "endyear": "2016",
@@ -58,118 +69,73 @@
       "url": "http://online.stanford.edu/course/machine-learning",
       "cert": "Coursera_E28H87675AWR_TimHall",
       "description": "This course provides a broad introduction to machine learning, datamining, and statistical pattern recognition. Topics include: (i) Supervised learning (parametric/non-parametric algorithms, support vector machines, kernels, neural networks). (ii) Unsupervised learning (clustering, dimensionality reduction, recommender systems, deep learning). (iii) Best practices in machine learning (bias/variance theory; innovation process in machine learning and AI). The course will also draw from numerous case studies and applications, so that you'll also learn how to apply learning algorithms to building smart robots (perception, control), text understanding (web search, anti-spam), computer vision, medical informatics, audio, database mining, and other areas.",
-      "logo": "stanford.png"
+      "logo": "stanford.png",
+      "classes": []
+    },
+    {
+      "school": "American Society for Quality",
+      "startyear": "2015",
+      "endyear": "2015",
+      "degree": "Certified Quality Engineer",
+      "url": "https://asq.org/cert/resource/docs/2016/CQE%20BOK%202015.pdf",
+      "cert": "TimHall_CQE_Certification",
+      "description": "The Certified Quality Engineer (CQE) is a professional who understands the
+        principles of product and service quality evaluation and control. This body of
+        knowledge and applied technologies include, but are not limited to, development
+        and operation of quality control systems, application and analysis of testing
+        and inspection procedures, the ability to use metrology and statistical methods
+        to diagnose and correct improper quality control practices, an understanding of
+        human factors and motivation, familiarity with quality cost concepts and techniques,
+        and the knowledge and ability to develop and administer management information
+        systems and to audit quality systems for deficiency identification and correction",
+      "logo": "asq.png",
+      "classes": []
+        }
+      ]
     },
     {
       "school": "University of Washington",
       "startyear": "2015",
       "endyear": "2015",
-      "degree": "Ruby on Rails Development",
-      "url": "",
-      "cert": "UW_Certificate",
-      "description": "Some description about the program",
-      "logo": "uw.png",
-      "classes": [
-        {
-          "name": "Ruby 1",
-          "grade": "A",
-          "semester": "Spring 2017",
-          "description": "A SDP class.",
-          "topics": [
-            "topic 1", "topic 2"
-          ]
-        },
-        {
-          "name": "Ruby 2",
-          "grade": "A",
-          "semester": "Summer 2017",
-          "description": "A DB class.",
-          "topics": [
-            "topic 1", "topic 2", "topic 3"
-          ]
-        }
-      ]
-    },
-    {
-      "school": "Udacity",
-      "startyear": "2017",
-      "endyear": "2017",
       "degree": "Frontend Web Developer Nanodegree",
       "url": "https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001",
       "cert": "TimHall_Udacity_FrontendNanodegreeCertificate_20170424",
-      "description": "Some description about the program",
+      "description": "Demand for front end developers is widespread across every industry, and continues to rise. By mastering the valuable skills taught in this program, you’ll be prepared for roles at a wide array of companies, from startups to global organizations. The projects you’ll build, and the portfolio you’ll develop, will provide ample evidence of your expertise.",
       "logo": "udacity.png",
-      "classes": [
-        {
-          "name": "Software Development Process",
-          "grade": "A",
-          "semester": "Spring 2017",
-          "description": "A SDP class.",
-          "topics": [
-            "topic 1", "topic 2"
-          ]
-        }
-      ]
+      "classes": []
     },
     {
-      "school": "Georgia Institute of Technology",
-      "startyear": "2017",
-      "endyear": "2019 (expected)",
-      "degree": "MS, Computer Science",
-      "url": "https://www.omscs.gatech.edu/",
-      "cert": "",
-      "description": "Some description about the program",
-      "classes": [
-        {
-          "name": "Software Development Process",
-          "grade": "A",
-          "semester": "Spring 2017",
-          "description": "A SDP class.",
-          "topics": [
-            "topic 1", "topic 2"
-          ]
-        }
-      ]
+      "school": "UCLA Extension",
+      "startyear": "2014",
+      "endyear": "2014",
+      "degree": "Relational Database Management",
+      "url": "https://www.uclaextension.edu/search/publicCourseSearchDetails.do?method=load&courseId=160012",
+      "cert": "UCLAExtension_GradeReport",
+        "description": "Understanding client-relational database design is vital to system design and implementation. Learn relational database technology, data modeling, SQL, data normalization, and the translation of logical designs to physical storage structures. Additional topics include indexes; storage management; transactions; database integrity; concurrency control; recovery; client/server relational database management; and introduction to query optimization.",
+      "logo": "ucla.png",
+      "classes": []
     },
     {
-      "school": "Georgia Institute of Technology",
-      "startyear": "2017",
-      "endyear": "2019 (expected)",
-      "degree": "MS, Computer Science",
-      "url": "https://www.omscs.gatech.edu/",
-      "cert": "",
+      "school": "MITx",
+      "startyear": "2014",
+      "endyear": "2014",
+      "degree": "Introduction to Computer Science and Programming Using Python",
+      "url": "https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-11",
+      "cert": "MITx_ComputerScience_GradeReport",
       "description": "Some description about the program",
-      "classes": [
-        {
-          "name": "Software Development Process",
-          "grade": "A",
-          "semester": "Spring 2017",
-          "description": "A SDP class.",
-          "topics": [
-            "topic 1", "topic 2"
-          ]
-        }
-      ]
+      "logo": "mitx.png",
+      "classes": []
     },
     {
-      "school": "Georgia Institute of Technology",
-      "startyear": "2017",
-      "endyear": "2019 (expected)",
-      "degree": "MS, Computer Science",
-      "url": "https://www.omscs.gatech.edu/",
+      "school": "UCLA",
+      "startyear": "2005",
+      "endyear": "2009",
+      "degree": "BA, Sociology",
+      "url": "http://www.sociology.ucla.edu/",
       "cert": "",
-      "description": "Some description about the program",
-      "classes": [
-        {
-          "name": "Software Development Process",
-          "grade": "A",
-          "semester": "Spring 2017",
-          "description": "A SDP class.",
-          "topics": [
-            "topic 1", "topic 2"
-          ]
-        }
-      ]
+      "description": "Founded in 1948, our department has produced more than 18,000 graduates and contributed to cutting-edge sociological research, in a rich array of subfields, for nearly 70 years. U.S.News and World Report consistently ranks our department among the top sociology departments in the nation. Our faculty occupy national and international leadership positions and have earned the highest recognition from professional associations, including the American Sociological Association, the National Academy of Sciences, and the American Academy of Arts and Sciences. Our students go on to apply their sociological training in a broad range of careers, while making amazing contributions to their communities",
+      "classes": [],
+      "logo": "ucla.png"
     }
   ],
   "projects": [
