@@ -14,7 +14,7 @@
     {% for project in projects %}
         <div class="col-lg-6 portfolio-item">
           <div class="card h-100">
-            <img class="card-img-top" src="{{project.images.preview.src}}" alt="{{project.images.preview.alt}}" title="{{project.images.preview.alt}}">
+            <img class="card-img-top" src="{{project.images.preview.src}}" alt="{{project.images.preview.alt}}" title="{{project.images.preview.alt}}" style="border-bottom: 1px solid #dfdfdf; !important">
             <div class="card-body">
               <h4 class="card-title">
                 {{project.name}}
