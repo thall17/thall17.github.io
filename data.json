@@ -177,7 +177,7 @@
     },
     {
       "name": "Username-checker",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.",
+      "description": "Username-checker is an app I started working to help with a personal need. I wanted to have one tool that could help me choose a username that would remain constant across the various online profiles I have (GitHub, StackOverflow, etc.). It was also a good opportunity to brush up on my Regex skills to validate usernames according to each site's rules, and was also good practice in handling various HTTP response codes.",
       "github_url": "https://github.com/thall17/username-checker",
       "live_url": "https://stormy-peak-29072.herokuapp.com/",
       "images": {
@@ -201,7 +201,7 @@
     },
     {
       "name": "Portfolio",
-      "description": "This site's layout is a free Bootstrap template with some customization. I wanted to develop my own portfolio site to quickly try a new build tool called Nunjucks, which I had read about for the first time recently. It enabled me to separate content from views, keeping all of my data in a separate data.json file, and using Nunjucks to populate my html templates.",
+      "description": "This site's layout is a free Bootstrap template with some customization. I wanted to develop my own portfolio site to quickly try a new build tool called Nunjucks, which I had read about for the first time recently. It enabled me to separate content from views, keeping all of my data in a separate data.json file, and using Nunjucks to populate my HTML templates.",
       "github_url": "",
       "live_url": "https://stormy-peak-29072.herokuapp.com/",
       "images": {
