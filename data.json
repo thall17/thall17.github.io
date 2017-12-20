@@ -171,7 +171,19 @@
       "images": {
         "preview": {
           "src": "images/arcade-game/preview_pic.png",
-          "alt": "username-checker screenshot"
+          "alt": "arcade-game screenshot"
+        }
+      }
+    },
+    {
+      "name": "Restaurant Map",
+      "description": "In this project from Udacity's Frontend Nanodegree program, I utilized the HTML5 canvas, a looping engine, and object-oriented JavaScript to create a Frogger-like game. Use the arrow keys to move the player from the bottom of the map to the water, without getting hit by any of the bugs!",
+      "github_url": "https://github.com/thall17/neighborhoodmap",
+      "live_url": "https://thall17.github.io/neighborhoodmap/",
+      "images": {
+        "preview": {
+          "src": "images/neighborhood-map/preview_pic.png",
+          "alt": "neighborhood-map screenshot"
         }
       }
     },
@@ -188,10 +200,34 @@
       }
     },
     {
+      "name": "PackTracker",
+      "description": "My teammate and I created this Rails application for the Ruby 310 course in University of Washington's Ruby Development program. PackTracker enables groups to consolidate supplies before starting a camping, hiking, or really any kind of trip together.",
+      "github_url": "https://github.com/thall17/pack_tracker",
+      "live_url": "https://pack-tracker.herokuapp.com/login",
+      "images": {
+        "preview": {
+          "src": "images/packtracker/preview_pic.png",
+          "alt": "PackTracker screenshot"
+        }
+      }
+    },
+    {
+      "name": "SRT Parser",
+      "description": "As an online student, I wanted to find the most efficient and effective way to watch lectures and take notes. For this reason, I put together a quick Python script that takes as input all transcript files from a Udacity course, parses them, reformats them, and outputs HTML files which can then be batch-imported into the Mac Notes app (or any app that allows HTML imports). I then use these notes as a starting point while I watch lectures, and I make changes to the format whenver it makes sense. The script also outputs transcripts as CSV files so that students can batch upload them to Brainscape and automatically generate flashcards, which can later be edited, added to, or deleted. More details and instructions can be found at the GitHub link below.",
+      "github_url": "https://github.com/thall17/srt-parser",
+      "live_url": "",
+      "images": {
+        "preview": {
+          "src": "images/srt-parser/preview_pic.png",
+          "alt": "srt-parser screenshot"
+        }
+      }
+    },
+    {
       "name": "Portfolio",
       "description": "This site's layout is a free Bootstrap template with some customization. I wanted to develop my own portfolio site to quickly try a new build tool called Nunjucks, which I had read about for the first time recently. It enabled me to separate content from views, keeping all of my data in a separate data.json file, and using Nunjucks to populate my HTML templates.",
-      "github_url": "",
-      "live_url": "https://stormy-peak-29072.herokuapp.com/",
+      "github_url": "https://github.com/thall17/thall17.github.io",
+      "live_url": "https://thall17.github.io/",
       "images": {
         "preview": {
           "src": "images/portfolio/700x400.png",

@@ -14,7 +14,7 @@
     {% for project in projects %}
         <div class="col-lg-6 portfolio-item">
           <div class="card h-100">
-            <img class="card-img-top" src="{{project.images.preview.src}}" alt="{{project.images.preview.alt}}" title="{{project.images.preview.alt}}" style="border-bottom: 1px solid #dfdfdf; min-height: 300px !important; max-height:300px !important;">
+            <img class="card-img-top" src="{{project.images.preview.src}}" alt="{{project.images.preview.alt}}" title="{{project.images.preview.alt}}" style="border-bottom: 1px solid #dfdfdf; ">
             <div class="card-body">
               <h4 class="card-title">
                 {{project.name}}
@@ -28,36 +28,12 @@
                 {% endif %}
                 {%if project.live_url != '' %}
                   <a class="btn btn-md btn-outline-success" href="{{project.live_url}}" target="_blank" style="display:inline" alt="{{project.live_url}}"><i class="fa fa-laptop"></i> Live</a>
-
                 {% endif %}
               </div>
             </div>
           </div>
         </div>
-        <!-- <div class="col-md-7">
-          <img class="img-fluid rounded mb-3 mb-md-0" src="{{project.images.preview.src}}" alt="{{project.images.preview.alt}}" title="{{project.images.preview.alt}}">
-        </div>
-        <div class="col-md-5">
-          <h3>{{project.name}}</h3>
-          <p>{{project.description}}</p>
-          <div class="text-center">
-            {%if project.github_url != '' %}
-              <a class="btn btn-md btn-outline-secondary" href="{{project.github_url}}" target="_blank" alt="{{project.github_url}}"><i class="fa fa-github"></i> Source</a>
-            {% else %}
-              <p><small>Unfortunately, I can't show code for Georgia Tech assignments.</small></p>
-            {% endif %}
-            {%if project.live_url != '' %}
-              <a class="btn btn-md btn-outline-success" href="{{project.live_url}}" target="_blank" style="display:inline" alt="{{project.live_url}}"><i class="fa fa-laptop"></i> Live</a>
 
-            {% endif %}
-          </div>
-
-
-
-        </div> -->
-      <!-- </div> -->
-      <!-- ./row -->
-      <!-- <hr> -->
     {% endfor %}
 
   </div>
