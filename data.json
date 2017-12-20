@@ -1,7 +1,7 @@
 {
   "about": {
     "description_1": "Hi! I'm Tim, a full-time Apple quality engineer, software/web developer, and graduate student based in Los Angeles, California. I love creating innovative applications with intuitive designs that can make a positive impact. I'm actively looking for new software opportunities in the Bay Area with a plan to move in early 2018. I'm most experienced in web development - specifically Ruby on Rails - but have worked with many different frameworks and languages, and am always excited to leverage my diverse professional and educational background to develop new skills.",
-    "description_2": "One thing you'll notice about me from this page is that I'm always learning. I feel very fortunate to have attended UCLA, where I earned my Bachelor's degree in Sociology in 2009. Since then, I've progressed in a career in the tech sector, learning through a combination of independent study, on-the-job experience, and formal educaiton. The opportunities in online education are greater than ever before, and I'm always trying to make the most of it. The MOOC model has allowed me to build a strong foundation in computer science, gain certificates in Ruby on Rails, Python programming, and machine learning from accredited universities, and currently I'm on track to complete the Georgia Tech OMSCS program (MS, Computer Science) degree - specializing in Artificial/Interactive Intelligence and Machine Learning - in 2019. My long-term goal is to complement my growing skillset in software engineering with the statistical analysis, cultural studies, and societal investigation skills I learned at UCLA.",
+    "description_2": "One thing you'll notice about me from this page is that I'm always learning. I feel very fortunate to have attended UCLA, where I earned my Bachelor's degree in Sociology in 2009. Since then, I've progressed in a career in the tech sector, learning through a combination of independent study, on-the-job experience, and formal education. The opportunities in online education are greater than ever before, and I'm always trying to make the most of it. The MOOC model has allowed me to build a strong foundation in computer science, gain certificates in Ruby on Rails, Python programming, and machine learning from accredited universities, and currently I'm on track to complete the Georgia Tech OMSCS program (MS, Computer Science) degree - specializing in Artificial/Interactive Intelligence and Machine Learning - in 2019. My long-term goal is to complement my growing skill set in software engineering with the statistical analysis, cultural studies, and societal investigation skills I learned at UCLA.",
     "email": "timhall3000@gmail.com",
     "mobile": "858-472-6046",
     "linkedin": "https://www.linkedin.com/in/thall17/",
@@ -39,7 +39,7 @@
           "name": "CS 6400 Database Systems Concepts and Design",
           "grade": "A",
           "semester": "Summer 2017",
-          "description": "This course teaches students the key concepts and practices of the database application development methodology through the creation of a major real-world project. All the database concepts, techniques and tools that are needed to develop a database application from scratch are covered along the way.  In addition to the development methodology, techniques and tools learned in this course include the Extended Entity Relationship Model, the Relational Model, Relational algebra, calculus and SQL, database normalization, efficiency, indexing, and echniques and tools for metadata management and archival.",
+          "description": "This course teaches students the key concepts and practices of the database application development methodology through the creation of a major real-world project. All the database concepts, techniques and tools that are needed to develop a database application from scratch are covered along the way.  In addition to the development methodology, techniques and tools learned in this course include the Extended Entity Relationship Model, the Relational Model, Relational algebra, calculus and SQL, database normalization, efficiency, indexing, and techniques and tools for metadata management and archival.",
           "url":"https://www.omscs.gatech.edu/cs-6400-database-systems-concepts-and-design"
         },
         {
@@ -69,7 +69,7 @@
       "degree": "Machine Learning",
       "url": "http://online.stanford.edu/course/machine-learning",
       "cert": "Coursera_E28H87675AWR_TimHall.pdf",
-      "description": "This course provides a broad introduction to machine learning, datamining, and statistical pattern recognition. Topics include: (i) Supervised learning (parametric/non-parametric algorithms, support vector machines, kernels, neural networks). (ii) Unsupervised learning (clustering, dimensionality reduction, recommender systems, deep learning). (iii) Best practices in machine learning (bias/variance theory; innovation process in machine learning and AI). The course will also draw from numerous case studies and applications, so that you'll also learn how to apply learning algorithms to building smart robots (perception, control), text understanding (web search, anti-spam), computer vision, medical informatics, audio, database mining, and other areas.",
+      "description": "This course provides a broad introduction to machine learning, data mining, and statistical pattern recognition. Topics include: (i) Supervised learning (parametric/non-parametric algorithms, support vector machines, kernels, neural networks). (ii) Unsupervised learning (clustering, dimensionality reduction, recommender systems, deep learning). (iii) Best practices in machine learning (bias/variance theory; innovation process in machine learning and AI). The course will also draw from numerous case studies and applications, so that you'll also learn how to apply learning algorithms to building smart robots (perception, control), text understanding (web search, anti-spam), computer vision, medical informatics, audio, database mining, and other areas.",
       "logo": "stanford.png",
       "classes": []
     },
@@ -105,7 +105,7 @@
           "name": "Ruby 210",
           "grade": "",
           "semester": "Summer 2017",
-          "description": "Ruby 210 was where we began to apply what we learned about the Ruby language in Ruby 110 to create Ruby on Rails applications. Topics included gems, Rake, environments, Git, routes, namespacing, models/views/controllers, partials, pair programming, workflows, scaffolding, JavaScriptJQuery, ActiveRecord and SQL, authentication/sessions, mailers, job queues, REST APIs, test-driven development using Rspec, and deployment/hosting strategies.",
+          "description": "Ruby 210 was where we began to apply what we learned about the Ruby language in Ruby 110 to create Ruby on Rails applications. Topics included gems, Rake, environments, Git, routes, namespacing, models/views/controllers, partials, pair programming, workflows, scaffolding, JavaScript, JQuery, ActiveRecord and SQL, authentication/sessions, mailers, job queues, REST APIs, test-driven development using Rspec, and deployment/hosting strategies.",
           "url":""
         },
         {
@@ -146,7 +146,7 @@
       "degree": "BA, Sociology",
       "url": "http://www.sociology.ucla.edu/",
       "cert": "",
-      "description": "Founded in 1948, the UCLA Sociology departnemt has been on the cutting-edge of sociological research in a rich array of subfields. U.S. News and World Report consistently ranks UCLA among the top sociology departments in the nation. The faculty occupy national and international leadership positions and have earned the highest recognition from professional associations, including the American Sociological Association, the National Academy of Sciences, and the American Academy of Arts and Sciences. Students go on to apply their sociological training in a broad range of careers, while making amazing contributions to their communities",
+      "description": "Founded in 1948, the UCLA Sociology department has been on the cutting-edge of sociological research in a rich array of subfields. U.S. News and World Report consistently ranks UCLA among the top sociology departments in the nation. The faculty occupy national and international leadership positions and have earned the highest recognition from professional associations, including the American Sociological Association, the National Academy of Sciences, and the American Academy of Arts and Sciences. Students go on to apply their sociological training in a broad range of careers, while making amazing contributions to their communities",
       "classes": [],
       "logo": "ucla.png"
     }
@@ -238,7 +238,7 @@
     },
     {
       "name": "SRT Parser",
-      "description": "As an online student, I wanted to find the most efficient and effective way to watch lectures and take notes. For this reason, I put together a quick Python script that takes as input all transcript files from a Udacity course, parses them, reformats them, and outputs HTML files which can then be batch-imported into the Mac Notes app (or any app that allows HTML imports). I then use these notes as a starting point while I watch lectures, and I make changes to the format whenver it makes sense. The script also outputs transcripts as CSV files so that students can batch upload them to Brainscape and automatically generate flashcards, which can later be edited, added to, or deleted. More details and instructions can be found at the GitHub link below.",
+      "description": "As an online student, I wanted to find the most efficient and effective way to watch lectures and take notes. For this reason, I put together a quick Python script that takes as input all transcript files from a Udacity course, parses them, reformats them, and outputs HTML files which can then be batch-imported into the Mac Notes app (or any app that allows HTML imports). I then use these notes as a starting point while I watch lectures, and I make changes to the format whenever it makes sense. The script also outputs transcripts as CSV files so that students can batch upload them to Brainscape and automatically generate flashcards, which can later be edited, added to, or deleted. More details and instructions can be found at the GitHub link below.",
       "github_url": "https://github.com/thall17/srt-parser",
       "live_url": "",
       "images": {
