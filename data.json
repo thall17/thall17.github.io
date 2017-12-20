@@ -154,9 +154,9 @@
   "projects": [
     {
       "name": "makebeer.io",
-      "description": "I'm currently working on this application, and I'm excited to release version 1.0 early in 2018. It's a Ruby on Rails app for home brewers to record, share, and discover beer recipes.  Version 1.0 will feature an intuitive frontend design for recording beer recipes, with additional feature focused on collaboration and sharing to be released soon after.",
+      "description": "I'm currently working on this application, and I'm excited to release version 1.0 early in 2018. It's a Ruby on Rails app for home brewers to record, share, and discover beer recipes.  I brewed my first batch earlier this year and look forward to brewing more; I just want to have clean and more interactive way of recording my recipes first. Version 1.0 will feature an intuitive frontend design for recording beer recipes, with additional features focused on collaboration and sharing to be released soon after.",
       "github_url": "https://github.com/thall17/makebeer",
-      "live_url": "http://makebeer.io",
+      "live_url": "",
       "images": {
         "preview": {
           "src": "images/makebeer/700x400.png",
