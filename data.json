@@ -94,25 +94,25 @@
       "logo": "uw.png",
       "classes": [
         {
-          "name": "Ruby 1",
+          "name": "Ruby 310",
           "grade": "",
           "semester": "Fall 2017",
-          "description": "This project-based course will explore research topics in computer networking, primarily at the IP layer and above. Students will gain exposure to burgeoning areas of computer networking and learn how to use the tools commonly used for networking research, today.",
-          "url":"https://www.omscs.gatech.edu/cs-6250-computer-networks"
+          "description": "Ruby 310 covered a wide range of advanced topics in Ruby on Rails development, including OAuth authentication, third party integration, building APIs, background jobs, performance and optimization, advanced JavaScript, deployment and maintenance, and a brief overview of alternative frameworks. For the group project, I worked with a classmate on a Rails app called PackTracker, which is listed in the Projects section of my site. The course concluded with an individual project and presentation, where I researched and reported on how to optimize a website's mobile-friendliness using responsive design in order to improve the ranking in Google's algorithm.",
+          "url":""
         },
         {
-          "name": "Ruby 2",
+          "name": "Ruby 210",
           "grade": "",
-          "semester": "Fall 2017",
-          "description": "This project-based course will explore research topics in computer networking, primarily at the IP layer and above. Students will gain exposure to burgeoning areas of computer networking and learn how to use the tools commonly used for networking research, today.",
-          "url":"https://www.omscs.gatech.edu/cs-6250-computer-networks"
+          "semester": "Summer 2017",
+          "description": "Ruby 210 was where we began to apply what we learned about the Ruby language in Ruby 110 to create Ruby on Rails applications. Topics included gems, Rake, environments, Git, routes, namespacing, models/views/controllers, partials, pair programming, workflows, scaffolding, JavaScriptJQuery, ActiveRecord and SQL, authentication/sessions, mailers, job queues, REST APIs, test-driven development using Rspec, and deployment/hosting strategies.",
+          "url":""
         },
         {
-          "name": "Ruby 3",
+          "name": "Ruby 110",
           "grade": "",
-          "semester": "Fall 2017",
-          "description": "This project-based course will explore research topics in computer networking, primarily at the IP layer and above. Students will gain exposure to burgeoning areas of computer networking and learn how to use the tools commonly used for networking research, today.",
-          "url":"https://www.omscs.gatech.edu/cs-6250-computer-networks"
+          "semester": "Spring 2017",
+          "description": "The first course in the UW Ruby on Rails Certificate program focused on the Ruby language. Topics included data types (String, Hash, Array, etc.), control flow statements and iteration, object-oriented design, methods and blocks, classes and objects, recursion, and dynamic types. With these tools, we also explored more advanced subjects such as test-driven development, web scraping, meta-programming, DSLs, regular expressions, and an introduction to the ActiveRecord ORM. The course lasted 9 weeks and included weekly assignments, and a final project. Lectures were broadcast live via Adobe Connect web conference where around 10 students viewed and actively participated in discussions.",
+          "url":""
         }
       ]
     },
