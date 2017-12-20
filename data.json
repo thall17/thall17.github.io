@@ -164,6 +164,30 @@
       }
     },
     {
+      "name": "Tourney Manager",
+      "description": "My team and I created this Android app for course 6300 Software Development Process in the Georgia Tech CS Masters Program. The actual implementation of the app was just the final week of a four-week process of requirements engineering, architecture design, interface design, and data structure modeling. The requirements for the project were that our app needed to be able to run a single-elimination tournament, keeping track of who wins, what the prizes are, and who receives each prize.",
+      "github_url": "",
+      "live_url": "",
+      "images": {
+        "preview": {
+          "src": "images/tourney-manager/preview_pic.png",
+          "alt": "Tourney Manager screenshot"
+        }
+      }
+    },
+    {
+      "name": "Atlanta Sharing Alliance Coordination System",
+      "description": "In 6400 Database Systems Concepts and Design at Georgia Tech, my team and I created this MAMP (Mac/Apache/MySQL/PHP) application for our final project. The web app supports the administrative duties of staff and volunteers at soup kitchens, shelters, and food banks, enabling easier meal inventory/transfer and bunk availability tracking, client check-ins, and many other features.",
+      "github_url": "",
+      "live_url": "",
+      "images": {
+        "preview": {
+          "src": "images/asacs/preview_pic.png",
+          "alt": "ASACS logo"
+        }
+      }
+    },
+    {
       "name": "Arcade Game",
       "description": "In this project from Udacity's Frontend Nanodegree program, I utilized the HTML5 canvas, a looping engine, and object-oriented JavaScript to create a Frogger-like game. Use the arrow keys to move the player from the bottom of the map to the water, without getting hit by any of the bugs!",
       "github_url": "https://github.com/thall17/frontend-nanodegree-arcade-game",
