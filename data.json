@@ -1,6 +1,7 @@
 {
   "about": {
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.",
+    "description_1": "Hi! I'm Tim, a full-time quality engineer, software/web developer, and graduate student based in California. I love creating innovative applications with intuitive designs that can make a positive impact. Right now, I'm looking for new software opportunities in the Bay Area. I'm most experienced in web development, specifically Ruby on Rails, but have worked with many different frameworks and languages, and am always excited to leverage my diverse professional background to pick up new skills.",
+    "description_2": "One thing you might notice about me is that I'm always learning. The opportunities in online education are greater than ever before, and I am taking full advantage. The MOOC model has allowed me to gain certificates in Ruby on Rails and Python programming from accredited universities, and currently I'm on track to complete the Georgia Tech OMSCS program (MS, Computer Science) degree, specializing in Artificial/Interactive Intelligence and Machine Learning, in 2019.",
     "email": "timhall3000@gmail.com",
     "mobile": "858-472-6046",
     "linkedin": "https://www.linkedin.com/in/thall17/",
