@@ -153,13 +153,25 @@
   "projects": [
     {
       "name": "makebeer.io",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.",
+      "description": "I'm currently working on this application, and I'm excited to release version 1.0 early in 2018. It's a Ruby on Rails app for home brewers to record, share, and discover beer recipes.  Version 1.0 will feature an intuitive frontend design for recording beer recipes, with additional feature focused on collaboration and sharing to be released soon after.",
       "github_url": "https://github.com/thall17/makebeer",
       "live_url": "http://makebeer.io",
       "images": {
         "preview": {
           "src": "images/makebeer/700x400.png",
-          "alt": "Image of makebeer temp logo"
+          "alt": "makebeer logo"
+        }
+      }
+    },
+    {
+      "name": "Arcade Game",
+      "description": "In this project from Udacity's Frontend Nanodegree program, I utilized the HTML5 canvas, a looping engine, and object-oriented JavaScript to create a Frogger-like game. Use the arrow keys to move the player from the bottom of the map to the water, without getting hit by any of the bugs!",
+      "github_url": "https://github.com/thall17/frontend-nanodegree-arcade-game",
+      "live_url": "https://thall17.github.io/frontend-nanodegree-arcade-game/",
+      "images": {
+        "preview": {
+          "src": "images/arcade-game/preview_pic.png",
+          "alt": "username-checker screenshot"
         }
       }
     },
@@ -171,7 +183,7 @@
       "images": {
         "preview": {
           "src": "images/username-checker/700x400.png",
-          "alt": "Image of Username-checker app"
+          "alt": "username-checker screenshot"
         }
       }
     },
@@ -183,7 +195,7 @@
       "images": {
         "preview": {
           "src": "images/portfolio/700x400.png",
-          "alt": "Image of Portfolio website"
+          "alt": "portfolio screenshot"
         }
       }
     }
