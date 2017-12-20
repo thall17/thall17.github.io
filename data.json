@@ -159,7 +159,7 @@
       "images": {
         "preview": {
           "src": "images/makebeer/700x400.png",
-          "alt": "placeholder"
+          "alt": "Image of makebeer temp logo"
         }
       }
     },
@@ -171,7 +171,7 @@
       "images": {
         "preview": {
           "src": "images/username-checker/700x400.png",
-          "alt": "placeholder"
+          "alt": "Image of Username-checker app"
         }
       }
     },
@@ -183,7 +183,7 @@
       "images": {
         "preview": {
           "src": "images/portfolio/700x400.png",
-          "alt": "placeholder"
+          "alt": "Image of Portfolio website"
         }
       }
     }
