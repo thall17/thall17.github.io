@@ -94,25 +94,25 @@
       "logo": "uw.png",
       "classes": [
         {
-          "name": "Ruby 3",
+          "name": "Ruby 310",
           "grade": "",
-          "semester": "Fall 2015",
-          "description": "This project-based course will explore research topics in computer networking, primarily at the IP layer and above. Students will gain exposure to burgeoning areas of computer networking and learn how to use the tools commonly used for networking research, today.",
-          "url":"https://www.omscs.gatech.edu/cs-6250-computer-networks"
+          "semester": "Fall 2017",
+          "description": "Ruby 310 covered a wide range of advanced topics in Ruby on Rails development, including OAuth authentication, third party integration, building APIs, background jobs, performance and optimization, advanced JavaScript, deployment and maintenance, and a brief overview of alternative frameworks. For the group project, I worked with a classmate on a Rails app called PackTracker, which is listed in the Projects section of my site. The course concluded with an individual project and presentation, where I researched and reported on how to optimize a website's mobile-friendliness using responsive design in order to improve the ranking in Google's algorithm.",
+          "url":""
         },
         {
-          "name": "Ruby 2",
+          "name": "Ruby 210",
           "grade": "",
-          "semester": "Summer 2015",
-          "description": "This project-based course will explore research topics in computer networking, primarily at the IP layer and above. Students will gain exposure to burgeoning areas of computer networking and learn how to use the tools commonly used for networking research, today.",
-          "url":"https://www.omscs.gatech.edu/cs-6250-computer-networks"
+          "semester": "Summer 2017",
+          "description": "Ruby 210 was where we began to apply what we learned about the Ruby language in Ruby 110 to create Ruby on Rails applications. Topics included gems, Rake, environments, Git, routes, namespacing, models/views/controllers, partials, pair programming, workflows, scaffolding, JavaScriptJQuery, ActiveRecord and SQL, authentication/sessions, mailers, job queues, REST APIs, test-driven development using Rspec, and deployment/hosting strategies.",
+          "url":""
         },
         {
-          "name": "Ruby 1",
+          "name": "Ruby 110",
           "grade": "",
-          "semester": "Spring 2015",
-          "description": "This project-based course will explore research topics in computer networking, primarily at the IP layer and above. Students will gain exposure to burgeoning areas of computer networking and learn how to use the tools commonly used for networking research, today.",
-          "url":"https://www.omscs.gatech.edu/cs-6250-computer-networks"
+          "semester": "Spring 2017",
+          "description": "The first course in the UW Ruby on Rails Certificate program focused on the Ruby language. Topics included data types (String, Hash, Array, etc.), control flow statements and iteration, object-oriented design, methods and blocks, classes and objects, recursion, and dynamic types. With these tools, we also explored more advanced subjects such as test-driven development, web scraping, meta-programming, DSLs, regular expressions, and an introduction to the ActiveRecord ORM. The course lasted 9 weeks and included weekly assignments, and a final project. Lectures were broadcast live via Adobe Connect web conference where around 10 students viewed and actively participated in discussions.",
+          "url":""
         }
       ]
     },
@@ -133,8 +133,8 @@
       "endyear": "Oct 2014",
       "degree": "Introduction to Computer Science and Programming Using Python",
       "url": "https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-11",
-      "cert": "MITx_ComputerScience_GradeReport.pdf",
-      "description": "Some description about the program",
+      "cert": "MITx_ComputerScience_GradeReport",
+      "description": "This course covers the basics of computer programming in Python and the fundamentals of computation. Taught by Eric Grimson, former Chancellor of the Massachusetts Institute of Technology, this class provided me with an incredible opportunity to build a strong foundation in computing and computer science from a world class institution, and inspired me to search for similar opportunities in the  years that followed.",
       "logo": "mitx.png",
       "classes": []
     },
@@ -158,68 +158,32 @@
       "live_url": "http://makebeer.io",
       "images": {
         "preview": {
-          "src": "images/makebeer/700x300.png",
-          "alt": "placeholder"
-        },
-        "gallery_1": {
-          "src": "images/makebeer/1900x1080_01.png",
-          "alt": "project_1 picture"
-        },
-        "gallery_2": {
-          "src": "images/makebeer/1900x1080_02.png",
-          "alt": "project_1 picture"
-        },
-        "gallery_3": {
-          "src": "images/makebeer/1900x1080_03.png",
-          "alt": "project_1 picture"
+          "src": "images/makebeer/700x400.png",
+          "alt": "Image of makebeer temp logo"
         }
       }
     },
     {
       "name": "Username-checker",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.",
+      "description": "Username-checker is an app I started working to help with a personal need. I wanted to have one tool that could help me choose a username that would remain constant across the various online profiles I have (GitHub, StackOverflow, etc.). It was also a good opportunity to brush up on my Regex skills to validate usernames according to each site's rules, and was also good practice in handling various HTTP response codes.",
       "github_url": "https://github.com/thall17/username-checker",
       "live_url": "https://stormy-peak-29072.herokuapp.com/",
       "images": {
         "preview": {
-          "src": "images/username-checker/700x300.png",
-          "alt": "placeholder"
-        },
-        "gallery_1": {
-          "src": "images/username-checker/1900x1080_01.png",
-          "alt": "project_1 picture"
-        },
-        "gallery_2": {
-          "src": "images/username-checker/1900x1080_02.png",
-          "alt": "project_1 picture"
-        },
-        "gallery_3": {
-          "src": "images/username-checker/1900x1080_03.png",
-          "alt": "project_1 picture"
+          "src": "images/username-checker/700x400.png",
+          "alt": "Image of Username-checker app"
         }
       }
     },
     {
       "name": "Portfolio",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.",
+      "description": "This site's layout is a free Bootstrap template with some customization. I wanted to develop my own portfolio site to quickly try a new build tool called Nunjucks, which I had read about for the first time recently. It enabled me to separate content from views, keeping all of my data in a separate data.json file, and using Nunjucks to populate my HTML templates.",
       "github_url": "",
       "live_url": "https://stormy-peak-29072.herokuapp.com/",
       "images": {
         "preview": {
-          "src": "images/portfolio/700x300.png",
-          "alt": "placeholder"
-        },
-        "gallery_1": {
-          "src": "images/portfolio/1900x1080_01.png",
-          "alt": "project_1 picture"
-        },
-        "gallery_2": {
-          "src": "images/portfolio/1900x1080_02.png",
-          "alt": "project_1 picture"
-        },
-        "gallery_3": {
-          "src": "images/portfolio/1900x1080_03.png",
-          "alt": "project_1 picture"
+          "src": "images/portfolio/700x400.png",
+          "alt": "Image of Portfolio website"
         }
       }
     }
