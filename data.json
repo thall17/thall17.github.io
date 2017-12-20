@@ -224,6 +224,18 @@
       }
     },
     {
+      "name": "React Tic-Tac-Toe",
+      "description": "This is a very simple React app I created, following the tutorial provided by Facebook, in an effort to familiarize myself with ReactJS.",
+      "github_url": "https://github.com/thall17/react-tictactoe",
+      "live_url": "",
+      "images": {
+        "preview": {
+          "src": "images/tictactoe/preview_pic.png",
+          "alt": "tictactoe screenshot"
+        }
+      }
+    },
+    {
       "name": "Portfolio",
       "description": "This site's layout is a free Bootstrap template with some customization. I wanted to develop my own portfolio site to quickly try a new build tool called Nunjucks, which I had read about for the first time recently. It enabled me to separate content from views, keeping all of my data in a separate data.json file, and using Nunjucks to populate my HTML templates.",
       "github_url": "https://github.com/thall17/thall17.github.io",
