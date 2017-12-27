@@ -262,7 +262,7 @@
     },
     {
       "name": "Portfolio",
-      "description": "This site (the one your on right now) uses a Bootstrap template with some customization. I wanted to develop my own portfolio site to learn a new build tool called Nunjucks, which I had read about for the first time recently, and to use NodeJS. Nunjucks enabled me to separate content from views, keeping all of my data in a separate JSON file, and using Nunjucks to populate my HTML templates dynamically.",
+      "description": "This site (the one you're on right now) uses a Bootstrap template with some customization. I wanted to develop my own portfolio site to learn a new build tool called Nunjucks, which I had read about for the first time recently, and to use NodeJS. Nunjucks enabled me to separate content from views, keeping all of my data in a separate JSON file, and using Nunjucks to populate my HTML templates dynamically.",
       "github_url": "https://github.com/thall17/thall17.github.io",
       "live_url": "https://thall17.github.io/",
       "images": {
