@@ -155,6 +155,7 @@
     {
       "name": "makebeer.io",
       "description": "I'm currently working on this application, and I'm excited to release version 1.0 early in 2018. It's a Ruby on Rails app for home brewers to record, share, and discover beer recipes.  I brewed my first batch earlier this year and look forward to brewing more; I just want to have clean and more interactive way of recording my recipes first. Version 1.0 will feature an intuitive frontend design for recording beer recipes, with additional features focused on collaboration and sharing to be released soon after.",
+      "technologies": "",
       "github_url": "https://github.com/thall17/makebeer",
       "live_url": "",
       "images": {
@@ -167,6 +168,7 @@
     {
       "name": "Tourney Manager",
       "description": "My team and I created this Android app for course 6300 Software Development Process in the Georgia Tech CS Masters Program. The actual implementation of the app was just the final week of a four-week process of requirements engineering, architecture design, interface design, and data structure modeling. The requirements for the project were that our app needed to be able to run a single-elimination tournament, keeping track of who wins, what the prizes are, and who receives each prize.",
+      "technologies": "",
       "github_url": "",
       "live_url": "",
       "images": {
@@ -179,6 +181,7 @@
     {
       "name": "Atlanta Sharing Alliance Coordination System",
       "description": "In 6400 Database Systems Concepts and Design at Georgia Tech, my team and I created this MAMP (Mac/Apache/MySQL/PHP) application for our final project. The web app supports the administrative duties of staff and volunteers at soup kitchens, shelters, and food banks, enabling easier meal inventory/transfer and bunk availability tracking, client check-ins, and many other features.",
+      "technologies": "",
       "github_url": "",
       "live_url": "",
       "images": {
@@ -191,6 +194,7 @@
     {
       "name": "Arcade Game",
       "description": "In this project from Udacity's Frontend Nanodegree program, I utilized the HTML5 canvas, a looping engine, and object-oriented JavaScript to create a Frogger-like game. Use the arrow keys to move the player from the bottom of the map to the water, without getting hit by any of the bugs!",
+      "technologies": "",
       "github_url": "https://github.com/thall17/frontend-nanodegree-arcade-game",
       "live_url": "https://thall17.github.io/frontend-nanodegree-arcade-game/",
       "images": {
@@ -203,6 +207,7 @@
     {
       "name": "Restaurant Map",
       "description": "This was a project I did for the Udacity Frontend Nanodegree. The requirements were to utilize the Google Maps API, KnockoutJS (a JavaScript implementation of the Model-View-ViewModel pattern), and a third party API of our choosing, and show a few of our favorite restaurants.",
+      "technologies": "",
       "github_url": "https://github.com/thall17/neighborhoodmap",
       "live_url": "https://thall17.github.io/neighborhoodmap/",
       "images": {
@@ -215,6 +220,7 @@
     {
       "name": "Username-checker",
       "description": "Username-checker is an app I started working on to help with a personal need. I wanted to have one tool that could help me choose one username for all the various online profiles I have (GitHub, StackOverflow, etc.). It was also a good opportunity to brush up on my RegEx skills to validate usernames according to each site's rules, and was also good practice in handling various HTTP response codes.",
+      "technologies": "",
       "github_url": "https://github.com/thall17/username-checker",
       "live_url": "https://stormy-peak-29072.herokuapp.com/",
       "images": {
@@ -227,6 +233,7 @@
     {
       "name": "PackTracker",
       "description": "My teammate and I created this Rails application for the final project of the Ruby 310 course in University of Washington's Ruby Development program. PackTracker enables groups to consolidate supplies before starting a camping, hiking, or really any kind of trip together.",
+      "technologies": "",
       "github_url": "https://github.com/thall17/pack_tracker",
       "live_url": "https://pack-tracker.herokuapp.com/login",
       "images": {
@@ -239,6 +246,7 @@
     {
       "name": "SRT Parser",
       "description": "As an online student, I wanted to find the most efficient and effective way to watch lectures and take notes. When I realized I was spending a lot of time manually typing the words of the instructor, I thought there had to be a better way.  For this reason, I put together a quick Python script that takes as input all transcript files from a Udacity course, parses them, reformats them, and outputs HTML files which can then be batch-imported into the Mac Notes app (or any app that allows HTML imports). I then use these notes as a starting point while I watch lectures, and I make changes to the format whenever it makes sense. The script also outputs transcripts as CSV files so that students can batch upload them to Brainscape to automatically generate flashcards, which can later be edited, added to, or deleted. More details and instructions can be found at the GitHub link below.",
+      "technologies": "",
       "github_url": "https://github.com/thall17/srt-parser",
       "live_url": "",
       "images": {
@@ -251,6 +259,7 @@
     {
       "name": "React Tic-Tac-Toe",
       "description": "A simple React app I created, following the tutorial provided by Facebook, in an effort to familiarize myself with ReactJS.",
+      "technologies": "",
       "github_url": "https://github.com/thall17/react-tictactoe",
       "live_url": "",
       "images": {
@@ -263,6 +272,7 @@
     {
       "name": "Portfolio",
       "description": "This site (the one you're on right now) uses a Bootstrap template with some customization. I wanted to develop my own portfolio site to learn a new build tool called Nunjucks, which I had read about for the first time recently, and to use NodeJS. Nunjucks enabled me to separate content from views, keeping all of my data in a separate JSON file, and using Nunjucks to populate my HTML templates dynamically.",
+      "technologies": "",
       "github_url": "https://github.com/thall17/thall17.github.io",
       "live_url": "https://thall17.github.io/",
       "images": {
