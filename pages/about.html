@@ -79,7 +79,7 @@
 
             </div>
             <div class="col-md-10">
-            {%if program.classes.length > 1 %}
+            {% if program.classes.length > 1 %}
               <h4 class="text-center">Classes</h4>
             {% endif %}
             {% for class in program.classes %}
@@ -90,8 +90,9 @@
                 <p><strong>Final Grade:</strong> {{class.grade}}</p>
               {% endif %}
               <p>{{class.description}}</p>
+              <p><strong>Topivs:</strong>{{class.topics}}</p>
               <hr  />
-              {% endfor %}
+            {% endfor %}
 
             </div>
             <div class="col-md-1">
