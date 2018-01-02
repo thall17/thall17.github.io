@@ -18,7 +18,7 @@
       "degree": "MS Computer Science",
       "url": "https://www.omscs.gatech.edu/",
       "cert": "",
-      "description": "One year in, Georgia Tech's OMSCS program has proven to be as great an opportunity as I imagined. It has helped strengthen my software engineering foundation while also diving into advanced topics that I can apply in everyday work situations. My chosen specialization is Interactive Intelligence, which covers Machine Learning and Artificial Intelligence with an emphasis on human-computer interaction. I'm on track to finish the program at the end of 2019, and am excited for the remainder of my coursework.",
+      "description": "One year in, Georgia Tech's OMSCS program has proven to be as great an opportunity as I imagined. It has helped strengthen my software engineering foundation while also diving into advanced topics that I can apply in everyday work situations. My chosen specialization is Interactive Intelligence, which covers Machine Learning and Artificial Intelligence with an emphasis on human-computer interaction. I'm on track to finish the program at the end of 2019 while working full time, and am excited for the remainder of my coursework.",
       "logo": "gt.png",
       "classes": [
         {
@@ -262,7 +262,7 @@
     },
     {
       "name": "Portfolio",
-      "description": "This site (the one your on right now) uses a Bootstrap template with some customization. I wanted to develop my own portfolio site to learn a new build tool called Nunjucks, which I had read about for the first time recently, and to use NodeJS. Nunjucks enabled me to separate content from views, keeping all of my data in a separate JSON file, and using Nunjucks to populate my HTML templates dynamically.",
+      "description": "This site (the one you're on right now) uses a Bootstrap template with some customization. I wanted to develop my own portfolio site to learn a new build tool called Nunjucks, which I had read about for the first time recently, and to use NodeJS. Nunjucks enabled me to separate content from views, keeping all of my data in a separate JSON file, and using Nunjucks to populate my HTML templates dynamically.",
       "github_url": "https://github.com/thall17/thall17.github.io",
       "live_url": "https://thall17.github.io/",
       "images": {
