@@ -104,7 +104,7 @@
           "semester": "Fall 2017",
           "description": "Ruby 310 covered a wide range of advanced topics in Ruby on Rails development. For the group project, I worked with a classmate on a Rails app called PackTracker, which is listed in the Projects section of my site. The course concluded with an individual project and presentation, where I researched and reported on how to optimize a website's mobile-friendliness using responsive design in order to improve UX and boost its ranking in Google's search algorithm.",
           "url":"",
-          "topics": "OAuth authentication, third party integration, building APIs, background jobs, performance and optimization, advanced JavaScript, deployment and maintenance, alternative frameworks"
+          "topics": "OAuth, third party integration, building APIs, background jobs, performance and optimization, advanced JavaScript, deployment and maintenance, alternative frameworks"
         },
         {
           "name": "Ruby 210",
