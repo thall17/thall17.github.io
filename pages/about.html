@@ -35,8 +35,9 @@
       <div class="education-accordion" style="margin: 0px 0px 24px 0px">
         {% for program in education %}
         <h3>
-          <image src="logos/{{program.logo}}" style="max-height:20px; padding-right:2px"></image><span>{%if program.degree != '' %} {{program.degree}}, {{program.school}}</span>
-          <span style="float: right">{% endif %}{{program.startyear}}{%if program.endyear != program.startyear %} - {{program.endyear}} {% endif %}</span>
+          <image src="logos/{{program.logo}}" style="max-height:20px; padding-right:2px"></image>
+          <span>{%if program.degree != '' %} {{program.degree}}, {% endif %} {{program.school}}</span>
+          <span style="float: right">{{program.startyear}}{%if program.endyear != program.startyear %} - {{program.endyear}} {% endif %}</span>
         </h3>
         <!-- <h3><span class="ui-icon ui-icon-newwin"><a href="#"><span class="title">Content</span></span></a></h3> -->
 
