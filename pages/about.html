@@ -88,7 +88,13 @@
                 <small class="text-muted">{{class.semester}}</small>
               </h5>
               {% if class.grade != ''%}
-                <p><strong>Final Grade:</strong> {{class.grade}}</p>
+                <p><strong>Final Grade:</strong>
+                  {% if class.grade == "A" %}
+                    <span style="color:green !important">{{class.grade}}</span>
+                  {% else %}
+                    {{class.grade}}
+                  {% endif %}
+                </p>
               {% endif %}
               <p>{{class.description}}</p>
               {% if class.topics != '' %}
