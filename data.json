@@ -1,7 +1,7 @@
 {
   "about": {
-    "description_1": "Hi!  I'm Tim, a Quality Engineer at Apple, software/web developer, and CS graduate student based in Los Angeles, California. I love working on innovative applications with intuitive designs that can make a positive impact.  I'll be moving to the Bay Area soon (early 2018), so I'm actively looking for opportunities in San Jose, Cupertino, Mountain View, Palo Alto, and the Santa Clara Valley. I'm most experienced in web development - specifically Ruby on Rails - but have worked with many different frameworks and languages and on different technologies, and am always excited to leverage my diverse professional and educational background to develop new skills.",
-    "description_2": "One thing you may notice from this page is that I'm always learning.  I attended UCLA where I earned my Bachelor's degree in Sociology in 2009.  From there, I've been steadily pursuing a career in the tech sector, learning through a combination of independent study, on-the-job experience, and formal education.  The opportunities in online coursework have allowed me to build a strong foundation in computer science, gain certificates in Ruby on Rails, Python programming, and machine learning from accredited universities, and currently I'm on track to complete the Georgia Tech OMSCS program (MS, Computer Science) degree - specializing in Artificial/Interactive Intelligence and Machine Learning - in 2019.  I'd love to combine my passion for learning with my software and web development skills to develop innovative, intuitive, and reliable applications and technologies.",
+    "description_1": "Hi!  I'm Tim, a Quality Engineer at Apple, software/web developer, and CS graduate student based in Los Angeles, California. I'll be moving to the Bay Area soon (early 2018), so I'm actively looking for opportunities in San Jose, Cupertino, Mountain View, Palo Alto, and the Santa Clara Valley in web development. My strongest languages are Python and Ruby, but I have worked with many different languages and frameworks, and on different technologies, and am always excited to leverage my diverse professional and educational background to develop new skills.",
+    "description_2": "One thing you may notice from this page is that I'm always learning.  I earned my Bachelor's degree in Sociology from UCLA in 2009.  From there, I've been steadily pursuing a career in the tech sector, learning through a combination of formal education, independent study, and on-the-job experience.  The opportunities in online education have allowed me to build a strong foundation in computer science, gain certificates in Ruby on Rails, Python programming, and machine learning from accredited universities, and make progress toward a Master's degree from Georgia Tech through their OMSCS program, specializing in Artificial/Interactive Intelligence and Machine Learning.  I'd love to combine my passion for learning with my software engineering skills to develop innovative, intuitive, and reliable applications and technologies.",
     "email": "timhall3000@gmail.com",
     "mobile": "858-472-6046",
     "linkedin": "https://www.linkedin.com/in/thall17/",
@@ -104,7 +104,7 @@
           "semester": "Fall 2017",
           "description": "Ruby 310 covered a wide range of advanced topics in Ruby on Rails development. For the group project, I worked with a classmate on a Rails app called PackTracker, which is listed in the Projects section of my site. The course concluded with an individual project and presentation, where I researched and reported on how to optimize a website's mobile-friendliness using responsive design in order to improve UX and boost its ranking in Google's search algorithm.",
           "url":"",
-          "topics": "OAuth authentication, third party integration, building APIs, background jobs, performance and optimization, advanced JavaScript, deployment and maintenance, alternative frameworks"
+          "topics": "OAuth, third party integration, building APIs, background jobs, performance and optimization, advanced JavaScript, deployment and maintenance, alternative frameworks"
         },
         {
           "name": "Ruby 210",
@@ -141,7 +141,7 @@
       "endyear": "Oct 2014",
       "degree": "Introduction to Computer Science and Programming Using Python",
       "url": "https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-11",
-      "cert": "MITx_ComputerScience_GradeReport",
+      "cert": "MITx_ComputerScience_GradeReport.pdf",
       "description": "This course covers the basics of computer programming in Python and the fundamentals of computation. Taught by Eric Grimson, former Chancellor of the Massachusetts Institute of Technology, this class provided me with an incredible opportunity to build a strong foundation in computing and computer science from a world class institution, and inspired me to search for similar opportunities in the  years that followed.",
       "logo": "mitx.png",
       "classes": []
