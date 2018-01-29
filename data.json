@@ -160,19 +160,6 @@
   ],
   "projects": [
     {
-      "name": "makebeer.io",
-      "description": "I'm currently working on this application, and I'm excited to release version 1.0 early in 2018. It's a Ruby on Rails app for home brewers to record, share, and discover beer recipes.  I brewed my first batch earlier this year and look forward to brewing more; I just want to have clean and more interactive way of recording my recipes first. Version 1.0 will feature an intuitive frontend design for recording beer recipes, with additional features focused on collaboration and sharing to be released soon after.",
-      "technologies": "Ruby on Rails, JavaScript, jQuery, HTML/CSS, RSpec, Factory Girl, Devise, Guard, Shoulda-Matchers",
-      "github_url": "https://github.com/thall17/makebeer",
-      "live_url": "",
-      "images": {
-        "preview": {
-          "src": "images/makebeer/700x400.png",
-          "alt": "makebeer logo"
-        }
-      }
-    },
-    {
       "name": "Tourney Manager",
       "description": "My team and I created this Android app for course 6300 Software Development Process in the Georgia Tech CS Masters Program. The actual implementation of the app was just the final week of a four-week process of requirements engineering, architecture design, interface design, and data structure modeling. The requirements for the project were that our app needed to be able to run a single-elimination tournament, keeping track of who wins, what the prizes are, and who receives each prize.",
       "technologies": "Android Studio/SDK, Java, JUnit",
@@ -195,6 +182,19 @@
         "preview": {
           "src": "images/asacs/preview_pic.png",
           "alt": "ASACS logo"
+        }
+      }
+    },
+    {
+      "name": "makebeer.io",
+      "description": "I'm currently working on this application, and I'm excited to release version 1.0 early in 2018. It's a Ruby on Rails app for home brewers to record, share, and discover beer recipes.  I brewed my first batch earlier this year and look forward to brewing more; I just want to have clean and more interactive way of recording my recipes first. Version 1.0 will feature an intuitive frontend design for recording beer recipes, with additional features focused on collaboration and sharing to be released soon after.",
+      "technologies": "Ruby on Rails, JavaScript, jQuery, HTML/CSS, RSpec, Factory Girl, Devise, Guard, Shoulda-Matchers",
+      "github_url": "https://github.com/thall17/makebeer",
+      "live_url": "",
+      "images": {
+        "preview": {
+          "src": "images/makebeer/700x400.png",
+          "alt": "makebeer logo"
         }
       }
     },
