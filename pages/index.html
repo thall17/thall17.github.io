@@ -1,8 +1,36 @@
 {% extends "layout.html" %}
 {% block content %}
 
-  <!-- Creating the navigation with activePage = 'home' -->
-  {{nav.active('home')}}
+  <!-- Nav bar-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top" style="background-color: #e3f2fd !important">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Tim Hall</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Projects
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <!-- <li class="nav-item {%if activePage == 'education' %} active {% endif %}">
+            <a class="nav-link" href="education.html">Education</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link" href="TimHall_Resume.pdf" target="_blank">Resume</a>
+          </li>
+          <!-- <li class="nav-item {%if activePage == 'contact' %} active {% endif %}">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li> -->
+        </ul>
+      </div>
+    </div>
+  </nav>
 
   <div class="container">
     <!-- Page Heading -->
@@ -39,7 +67,127 @@
 
     {% endfor %}
 
+    </div>
+
+  <div id="about">
+    <hr />
+    <br />
   </div>
+  <!-- ./row -->
+  <div class="row">
+    <div class="col-md-12">
+      <h1 class="my-4">About Me</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12" style="margin-bottom:20px">
+      <img class="img-fluid mb-3 mb-md-0" src="images/me_centered.JPG" style="max-width:250px; border-radius: 6px;" alt="">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <p>{{about.description_1}}</p>
+      <p>{{about.description_2}}</p>
+      <p>Want to get in touch? <a href="mailto:{{about.email}}" alt="Email me at timhall3000@gmail.com">Email me</a> or reach out using any of the social buttons in the footer. Hope to hear from you soon!</p>
+    </div>
+  </div>
+  <!-- /.row -->
+  <div class="row">
+    <div class="col-md-12">
+      <h1 class="my-2">Education & Certifications</h1>
+    </div>
+  </div>
+  <!-- /.row -->
+  <div class="row">
+    <div class="col-md-12">
+      <div class="education-accordion" style="margin: 0px 0px 24px 0px">
+        {% for program in education %}
+        <h3>
+          <image src="logos/{{program.logo}}" style="max-height:20px; padding-right:2px"></image>
+          <span>{%if program.degree != '' %} {{program.degree}}, {% endif %} {{program.school}}</span>
+          <span style="float: right">{{program.startyear}}{%if program.endyear != program.startyear %} - {{program.endyear}} {% endif %}</span>
+        </h3>
+        <!-- <h3><span class="ui-icon ui-icon-newwin"><a href="#"><span class="title">Content</span></span></a></h3> -->
+
+        <div>
+          {%if program.classes.length > 0 %}
+            <div class="row">
+              <div class="col-md-12">
+                <h4>Overview</h4>
+              </div>
+            </div>
+          {% endif %}
+          <!-- ./row -->
+          <div class="row">
+            <div class="col-md-12">
+              <p>{{program.description}}</p>
+            </div>
+          </div>
+          <!-- ./row -->
+          <div class="row">
+            <div class="col-md-12">
+              <p style="text-align: center">
+                {%if program.url != '' %}
+                <a style="color:#007bff" href="{{program.url}}" target="_blank">More Info</a> {%if program.cert != '' %} | {% endif %} {% endif %} {%if program.cert != '' %}
+                <a style="color:#007bff" href="cert/{{program.cert}}" target="_blank">View Certificate</a> {% endif %}
+              </p>
+            </div>
+          </div>
+          <!-- ./row -->
+          {%if program.classes.length > 1 %}
+            <div class="row">
+              <div class="col-md-12">
+                <hr />
+              </div>
+            </div>
+            <!-- ./row -->
+          {% endif %}
+
+          <div class="row">
+            <div class="col-md-1">
+
+            </div>
+            <div class="col-md-10">
+            {% if program.classes.length > 1 %}
+              <h4 class="text-center">Classes</h4>
+            {% endif %}
+            {% for class in program.classes %}
+              <h5>{{class.name}}
+                <small class="text-muted">{{class.semester}}</small>
+              </h5>
+              {% if class.grade != ''%}
+                <p><strong>Final Grade:</strong>
+                  {% if class.grade == "A" %}
+                    <span style="color:green !important">{{class.grade}}</span>
+                  {% else %}
+                    {{class.grade}}
+                  {% endif %}
+                </p>
+              {% endif %}
+              <p>{{class.description}}</p>
+              {% if class.topics != '' %}
+                <p><strong>Topics: </strong>{{class.topics}}</p>
+              {% endif %}
+              <hr  />
+            {% endfor %}
+
+            </div>
+            <div class="col-md-1">
+
+            </div>
+          </div>
+
+
+        </div>
+        {% endfor %}
+        <!-- ./body of individual accordion cell -->
+
+      </div>
+      <!-- ./accordion -->
+    </div>
+  </div>
+  <!-- ./row surrounding accordion -->
+
   <!-- ./row -->
   </div>
   <!-- ./container -->
