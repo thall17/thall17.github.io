@@ -110,6 +110,8 @@
           "name": "Ruby 310",
           "grade": "",
           "semester": "Fall 2017",
+          "instructor": "",
+          "instructor_bio": "",
           "description": "Ruby 310 covered a wide range of advanced topics in Ruby on Rails development. For the group project, I worked with a classmate on a Rails app called PackTracker, which is listed in the Projects section of my site. The course concluded with an individual project and presentation, where I researched and reported on how to optimize a website's mobile-friendliness using responsive design in order to improve UX and boost its ranking in Google's search algorithm.",
           "url":"",
           "topics": "OAuth, third party integration, building APIs, background jobs, performance and optimization, advanced JavaScript, deployment and maintenance, alternative frameworks"
@@ -118,6 +120,8 @@
           "name": "Ruby 210",
           "grade": "",
           "semester": "Summer 2017",
+          "instructor": "",
+          "instructor_bio": "",
           "description": "Ruby 210 was where we began to apply what we learned about the Ruby language in Ruby 110 to create Ruby on Rails applications. Throughout the course we created several Rails applications from single-page joke generators to medical records data trackers.",
           "url":"",
           "topics": "Rake, gems, environments, Git, routes, namespacing, models/views/controllers, partials, pair programming, workflows, scaffolding, JavaScript, JQuery, ActiveRecord and SQL, authentication/sessions, mailers, job queues, REST APIs, test-driven development using Rspec, deployment/hosting strategies"
@@ -126,6 +130,8 @@
           "name": "Ruby 110",
           "grade": "",
           "semester": "Spring 2017",
+          "instructor": "",
+          "instructor_bio": "",
           "description": "The first course in the UW Ruby on Rails Certificate program focused on the Ruby language, object-oriented design, test-driven development, and a brief intro to the Rails framework.",
           "url":"",
           "topics": "data types (String, Hash, Array, etc.), control flow statements and iteration, object-oriented design, methods and blocks, classes and objects, recursion, and dynamic types. With these tools, we also explored more advanced subjects such as test-driven development, web scraping, meta-programming, DSLs, regular expressions, ActiveRecord ORM"
