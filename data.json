@@ -25,6 +25,8 @@
           "name": "CS 6750 Human-Computer Interaction",
           "grade": "In progress",
           "semester": "Spring 2018",
+          "instructor": "David Joyner",
+          "instructor_bio": "http://www.davidjoyner.net/",
           "description": "This course is an introductory course on human-computer interaction. It covers three broad categories of topics within human-computer interaction: (a) the principles and characteristics of the interaction between humans and computers; (b) the techniques for designing and evaluating user-centered systems; and (c) current areas of cutting-edge research and development in human-computer interaction.",
           "url": "http://www.omscs.gatech.edu/cs-6750-human-computer-interaction",
           "topics": ""
@@ -33,6 +35,8 @@
           "name": "CS 6250 Computer Networks",
           "grade": "A",
           "semester": "Fall 2017",
+          "instructor": "Maria Konte",
+          "instructor_bio": "https://www.mariakonte.net/",
           "description": "This project-based course explores research topics in computer networking, primarily at the IP layer and above. Students gain exposure to burgeoning areas of computer networking and learn how to use the tools commonly used today for networking research, such as BGP routing techniques, network security, and software-defined networking.",
           "url":"https://www.omscs.gatech.edu/cs-6250-computer-networks",
           "topics": "internet architecture and principles, switching, protocols such as TCP/IP, UDP, and BGP, autonomous systems, internet exchange points (IXP's), routing, DNS, congestion control, content distribution, routing algorithsm such as spanning tree and shortest path, software-defined networking (SDN), traffic engineering, network security, and worms/spam/DoS attacks"
@@ -41,6 +45,8 @@
           "name": "CS 6400 Database Systems Concepts and Design",
           "grade": "A",
           "semester": "Summer 2017",
+          "instructor": "Jay Summet",
+          "instructor_bio": "https://www.cc.gatech.edu/~summetj/",
           "description": "This course teaches students the key concepts and practices of the database application development methodology through the creation of a major real-world project. All the database concepts, techniques and tools that are needed to develop a database application from scratch are covered along the way.  In addition to the development methodology, techniques and tools learned in this course include the Extended Entity Relationship Model, the Relational Model, Relational algebra, calculus and SQL, database normalization, efficiency, indexing, and techniques and tools for metadata management and archival.",
           "url":"https://www.omscs.gatech.edu/cs-6400-database-systems-concepts-and-design",
           "topics": "database fundamentals, DB application development process, extendend entity-relationship model, relational model, EER/relational mapping, normalization, relational algebra and calculus, SQL, efficiency, implementation, and metadata"
@@ -49,6 +55,8 @@
           "name": "CS 6300 Software Development Process",
           "grade": "A",
           "semester": "Spring 2017",
+          "instructor": "Alessandro (Alex) Orso",
+          "instructor_bio": "https://www.cc.gatech.edu/~orso/",
           "description": "This course provides an in-depth study of the process of developing software systems, including the use of software processes in actual product development, techniques used to ensure quality of the software products and maintenance tasks performed as software evolves. By the end of the course, students will understand the role of software processes in the development of software and will have experienced several types of processes, from rigid to agile. Students will also become familiar with a variety of modern technologies and development techniques and understand their connection to software processes, and also gain hands-on experience in white-box and black-box testing.",
           "url": "https://www.omscs.gatech.edu/cs-6300-software-development-process",
           "topics": "software lifecycle, project management, design activities and products, IDEs and version control, requirements engineering, object-oriented engineering/UML, Android application development, software architecture, software design, design patterns, Unified Software Process, software testing (black box, white box, test coverage, tools & techniques), Agile development, refactoring"
