@@ -173,8 +173,8 @@
     <div class="row">
       <div class="col-md-12" id="projects">
         <hr />
-        <br />
-        <h1 class="my-4">Projects</h1>
+        <!-- <br /> -->
+        <h3 class="my-4">Projects</h3>
       </div>
     </div>
     <!-- /.row -->
@@ -413,9 +413,9 @@
 
   <div class="row">
     <div class="col-md-12" id="education">
-      <br />
+      <!-- <br /> -->
       <hr />
-      <h1 class="my-4">Education</h1>
+      <h3 class="my-4">Education</h3>
     </div>
   </div>
   <!-- /.row -->
@@ -1015,7 +1015,7 @@
 
       $('#nav-projects').click(function () {
         $('html, body').animate({
-             scrollTop: $("#projects").offset().top
+             scrollTop: $("#projects").offset().top-25
          }, 800, function () {
           // window.location.hash = "#projects";
         });
@@ -1024,7 +1024,7 @@
 
       $('#nav-education').click(function () {
         $('html, body').animate({
-             scrollTop: $("#education").offset().top
+             scrollTop: $("#education").offset().top-25
          }, 800, function () {
           // window.location.hash = "#education";
         });
