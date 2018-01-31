@@ -97,7 +97,7 @@
 
   </head>
 
-  <body style="color:#505050" id="projects">
+  <body style="color:#505050" id="about">
 
     <!-- Importing Nunjucks Macro -->
     <!-- {% import 'macros/nav-macro.html' as nav %} -->
@@ -127,22 +127,31 @@
 
     <script async>
       $('#nav-about').click(function () {
-      $('html, body').animate({
-           scrollTop: $("#about").offset().top
-       }, 800, function () {
-        window.location.hash = "#about";
-      });
-      return false;
+        $('html, body').animate({
+             scrollTop: $("#about").offset().top
+         }, 800, function () {
+          window.location.hash = "#about";
+        });
+        return false;
       });
 
       $('#nav-projects').click(function () {
-      $('html, body').animate({
-           scrollTop: $("body").offset().top
-       }, 800, function () {
-        window.location.hash = "#projects";
+        $('html, body').animate({
+             scrollTop: $("#projects").offset().top
+         }, 800, function () {
+          window.location.hash = "#projects";
+        });
+        return false;
       });
-      return false;
-    });
+
+      $('#nav-education').click(function () {
+        $('html, body').animate({
+             scrollTop: $("#education").offset().top
+         }, 800, function () {
+          window.location.hash = "#education";
+        });
+        return false;
+      });
 
     $(".nav-link").on("click", function(){
        $(".navbar").find(".active").removeClass("active");

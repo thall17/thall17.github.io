@@ -11,13 +11,19 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
+            <a class="nav-link" id="nav-about" href="#about">About</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" id="nav-projects" href="#projects">Projects
               <!-- <span class="sr-only">(current)</span> -->
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="nav-about" href="#about">About</a>
+            <a class="nav-link" id="nav-education" href="#education">Education
+              <!-- <span class="sr-only">(current)</span> -->
+            </a>
           </li>
+
           <!-- <li class="nav-item {%if activePage == 'education' %} active {% endif %}">
             <a class="nav-link" href="education.html">Education</a>
           </li> -->
@@ -38,9 +44,36 @@
       <br /> ~~>
     </div> -->
     <!-- Page Heading -->
-    <h1 class="my-4">Projects
-      <!-- <small>Secondary Text</small> -->
-    </h1>
+    <!-- ./row -->
+    <div class="row">
+      <div class="col-md-12" id="about">
+        <!-- <h1 class="my-4">About Me</h1> -->
+      </div>
+    </div>
+    <!-- /row -->
+
+    <div class="row">
+      <div class="col-md-12" style="margin-bottom:20px">
+
+        <p style="margin-top: 1em;">
+          <img class="img-thumbnail" src="images/me_centered.JPG" style="max-width:12em; float:left; margin-right:1em; margin-bottom:2px;" alt="">
+          <!-- <br /><br /> -->
+          <span style="margin-left:2em;">{{about.description_1}}</span><br />
+          <span style="margin-left:2em;">{{about.description_2}}</span><br /><br />
+          <span>Want to get in touch? <a href="mailto:{{about.email}}" alt="Email me at timhall3000@gmail.com">Email me</a> or reach out using any of the social buttons in the footer. Hope to hear from you soon!</span></p>
+      </div>
+    </div>
+    <!-- /.row -->
+
+    <div class="row">
+      <div class="col-md-12" id="projects">
+        <br />
+        <hr />
+        <h1 class="my-4">Projects</h1>
+      </div>
+    </div>
+    <!-- /.row -->
+
     <!-- Project One -->
     <div class="row">
     {% for project in projects %}
@@ -73,30 +106,13 @@
 
     </div>
   <!-- ./row -->
-  <div class="row">
 
-    <div class="col-md-12" id="about">
+
+  <div class="row">
+    <div class="col-md-12" id="education">
       <br />
       <hr />
-      <h1 class="my-4">About Me</h1>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-12" style="margin-bottom:20px">
-      <img class="img-fluid mb-3 mb-md-0" src="images/me_centered.JPG" style="max-width:250px; border-radius: 6px;" alt="">
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-12">
-      <p>{{about.description_1}}</p>
-      <p>{{about.description_2}}</p>
-      <p>Want to get in touch? <a href="mailto:{{about.email}}" alt="Email me at timhall3000@gmail.com">Email me</a> or reach out using any of the social buttons in the footer. Hope to hear from you soon!</p>
-    </div>
-  </div>
-  <!-- /.row -->
-  <div class="row">
-    <div class="col-md-12">
-      <h2 class="my-2">Education & Certifications</h2>
+      <h1 class="my-4">Education</h1>
     </div>
   </div>
   <!-- /.row -->
