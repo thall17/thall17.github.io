@@ -1033,6 +1033,8 @@
 
     $(".nav-link").on("click", function(){
        $(".navbar").find(".active").removeClass("active");
+       $(".navbar").find(".show").removeClass("show");
+       // $(".navbar").find(".collapse.show").css("display","none !important");
        $(this).parent().addClass("active");
     });
     </script>
